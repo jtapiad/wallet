@@ -11,3 +11,16 @@ C:\Users\json\Desktop\Wallet\Wallet\WalletVisor\obj\Debug\WalletVisor.vbproj.Gen
 C:\Users\json\Desktop\Wallet\Wallet\WalletVisor\obj\Debug\WalletVisor.exe
 C:\Users\json\Desktop\Wallet\Wallet\WalletVisor\obj\Debug\WalletVisor.xml
 C:\Users\json\Desktop\Wallet\Wallet\WalletVisor\obj\Debug\WalletVisor.pdb
+C:\Users\json\Documents\walleto\WalletVisor\bin\Debug\WalletCrip.config
+C:\Users\json\Documents\walleto\WalletVisor\bin\Debug\WalletVisor.exe.config
+C:\Users\json\Documents\walleto\WalletVisor\bin\Debug\WalletVisor.exe
+C:\Users\json\Documents\walleto\WalletVisor\bin\Debug\WalletVisor.pdb
+C:\Users\json\Documents\walleto\WalletVisor\bin\Debug\WalletVisor.xml
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.vbprojResolveAssemblyReference.cache
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.frmWALOJO00.resources
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.frmWalVisor.resources
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.Resources.resources
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.vbproj.GenerateResource.Cache
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.exe
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.xml
+C:\Users\json\Documents\walleto\WalletVisor\obj\Debug\WalletVisor.pdb
