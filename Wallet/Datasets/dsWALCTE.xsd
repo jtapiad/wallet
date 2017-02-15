@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsWALCTE" targetNamespace="http://tempuri.org/dsWALCTE.xsd" xmlns:mstns="http://tempuri.org/dsWALCTE.xsd" xmlns="http://tempuri.org/dsWALCTE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="WalletConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WalletConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wallet.My.MySettings.GlobalReference.Default.WalletConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TESCTECompletoTableAdapter" GeneratorDataComponentClassName="TESCTECompletoTableAdapter" Name="TESCTECompleto" UserDataComponentName="TESCTECompletoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TESCTE.CTE_CODIGO, TESCTE.ENT_CODIGO, TESCTE.CON_CODIGO, TESCTE.MON_CODIGO, TESCTE.EMP_CODIGO, TESCTE.CTE_NUMERO, TESCTE.CTE_CUENTA, TESCTE.CTE_SIGLA, TESCTE.CTE_GRUPO, 
+                         TESCTE.CTE_TIPO, TESCTE.CTE_SECUENCIA, TESCTE.CTE_COLCHON1, TESCTE.CTE_COLCHON2, TESCTE.CTE_PLAZA, TESCTE.CTE_MADRE, TESCTE.CTE_AUDITORIA, TESCTE.CTE_SOCIEDAD, 
+                         TESCTE.CTE_CODBANCO, TESCTE.CTE_CUENTAID, TESCTE.CTE_GLOSA, TESCTE.CTE_CONTABLE, TESCTE.CTE_MONEDASAP, TESCTE.CTE_VIA, TESCTE.CTE_CODCTE, TESMON.MON_MONEDA, 
+                         TESEMP.EMP_EMPRESA, TESCON.CON_NOMBRE, TESENT.ENT_RAZON, TESENT.ENT_ABREVIATURA
+FROM            TESCTE LEFT OUTER JOIN
+                         TESMON ON TESCTE.MON_CODIGO = TESMON.MON_CODIGO LEFT OUTER JOIN
+                         TESEMP ON TESCTE.EMP_CODIGO = TESEMP.EMP_CODIGO LEFT OUTER JOIN
+                         TESCON ON TESCTE.CON_CODIGO = TESCON.CON_CODIGO LEFT OUTER JOIN
+                         TESENT ON TESCTE.ENT_CODIGO = TESENT.ENT_CODIGO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CTE_CODIGO" DataSetColumn="CTE_CODIGO" />
+              <Mapping SourceColumn="ENT_CODIGO" DataSetColumn="ENT_CODIGO" />
+              <Mapping SourceColumn="CON_CODIGO" DataSetColumn="CON_CODIGO" />
+              <Mapping SourceColumn="MON_CODIGO" DataSetColumn="MON_CODIGO" />
+              <Mapping SourceColumn="EMP_CODIGO" DataSetColumn="EMP_CODIGO" />
+              <Mapping SourceColumn="CTE_NUMERO" DataSetColumn="CTE_NUMERO" />
+              <Mapping SourceColumn="CTE_CUENTA" DataSetColumn="CTE_CUENTA" />
+              <Mapping SourceColumn="CTE_SIGLA" DataSetColumn="CTE_SIGLA" />
+              <Mapping SourceColumn="CTE_GRUPO" DataSetColumn="CTE_GRUPO" />
+              <Mapping SourceColumn="CTE_TIPO" DataSetColumn="CTE_TIPO" />
+              <Mapping SourceColumn="CTE_SECUENCIA" DataSetColumn="CTE_SECUENCIA" />
+              <Mapping SourceColumn="CTE_COLCHON1" DataSetColumn="CTE_COLCHON1" />
+              <Mapping SourceColumn="CTE_COLCHON2" DataSetColumn="CTE_COLCHON2" />
+              <Mapping SourceColumn="CTE_PLAZA" DataSetColumn="CTE_PLAZA" />
+              <Mapping SourceColumn="CTE_MADRE" DataSetColumn="CTE_MADRE" />
+              <Mapping SourceColumn="CTE_AUDITORIA" DataSetColumn="CTE_AUDITORIA" />
+              <Mapping SourceColumn="CTE_SOCIEDAD" DataSetColumn="CTE_SOCIEDAD" />
+              <Mapping SourceColumn="CTE_CODBANCO" DataSetColumn="CTE_CODBANCO" />
+              <Mapping SourceColumn="CTE_CUENTAID" DataSetColumn="CTE_CUENTAID" />
+              <Mapping SourceColumn="CTE_GLOSA" DataSetColumn="CTE_GLOSA" />
+              <Mapping SourceColumn="CTE_CONTABLE" DataSetColumn="CTE_CONTABLE" />
+              <Mapping SourceColumn="CTE_MONEDASAP" DataSetColumn="CTE_MONEDASAP" />
+              <Mapping SourceColumn="CTE_VIA" DataSetColumn="CTE_VIA" />
+              <Mapping SourceColumn="CTE_CODCTE" DataSetColumn="CTE_CODCTE" />
+              <Mapping SourceColumn="MON_MONEDA" DataSetColumn="MON_MONEDA" />
+              <Mapping SourceColumn="EMP_EMPRESA" DataSetColumn="EMP_EMPRESA" />
+              <Mapping SourceColumn="CON_NOMBRE" DataSetColumn="CON_NOMBRE" />
+              <Mapping SourceColumn="ENT_RAZON" DataSetColumn="ENT_RAZON" />
+              <Mapping SourceColumn="ENT_ABREVIATURA" DataSetColumn="ENT_ABREVIATURA" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TESCTETableAdapter" GeneratorDataComponentClassName="TESCTETableAdapter" Name="TESCTE" UserDataComponentName="TESCTETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectName="Wallet.dbo.TESCTE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[TESCTE] WHERE (([CTE_CODIGO] = @Original_CTE_CODIGO) AND ([ENT_CODIGO] = @Original_ENT_CODIGO) AND ((@IsNull_CON_CODIGO = 1 AND [CON_CODIGO] IS NULL) OR ([CON_CODIGO] = @Original_CON_CODIGO)) AND ([MON_CODIGO] = @Original_MON_CODIGO) AND ([EMP_CODIGO] = @Original_EMP_CODIGO) AND ((@IsNull_CTE_NUMERO = 1 AND [CTE_NUMERO] IS NULL) OR ([CTE_NUMERO] = @Original_CTE_NUMERO)) AND ((@IsNull_CTE_CUENTA = 1 AND [CTE_CUENTA] IS NULL) OR ([CTE_CUENTA] = @Original_CTE_CUENTA)) AND ((@IsNull_CTE_SIGLA = 1 AND [CTE_SIGLA] IS NULL) OR ([CTE_SIGLA] = @Original_CTE_SIGLA)) AND ((@IsNull_CTE_GRUPO = 1 AND [CTE_GRUPO] IS NULL) OR ([CTE_GRUPO] = @Original_CTE_GRUPO)) AND ((@IsNull_CTE_TIPO = 1 AND [CTE_TIPO] IS NULL) OR ([CTE_TIPO] = @Original_CTE_TIPO)) AND ((@IsNull_CTE_SECUENCIA = 1 AND [CTE_SECUENCIA] IS NULL) OR ([CTE_SECUENCIA] = @Original_CTE_SECUENCIA)) AND ((@IsNull_CTE_COLCHON1 = 1 AND [CTE_COLCHON1] IS NULL) OR ([CTE_COLCHON1] = @Original_CTE_COLCHON1)) AND ((@IsNull_CTE_COLCHON2 = 1 AND [CTE_COLCHON2] IS NULL) OR ([CTE_COLCHON2] = @Original_CTE_COLCHON2)) AND ((@IsNull_CTE_PLAZA = 1 AND [CTE_PLAZA] IS NULL) OR ([CTE_PLAZA] = @Original_CTE_PLAZA)) AND ((@IsNull_CTE_MADRE = 1 AND [CTE_MADRE] IS NULL) OR ([CTE_MADRE] = @Original_CTE_MADRE)) AND ((@IsNull_CTE_AUDITORIA = 1 AND [CTE_AUDITORIA] IS NULL) OR ([CTE_AUDITORIA] = @Original_CTE_AUDITORIA)) AND ((@IsNull_CTE_SOCIEDAD = 1 AND [CTE_SOCIEDAD] IS NULL) OR ([CTE_SOCIEDAD] = @Original_CTE_SOCIEDAD)) AND ((@IsNull_CTE_CODBANCO = 1 AND [CTE_CODBANCO] IS NULL) OR ([CTE_CODBANCO] = @Original_CTE_CODBANCO)) AND ((@IsNull_CTE_CUENTAID = 1 AND [CTE_CUENTAID] IS NULL) OR ([CTE_CUENTAID] = @Original_CTE_CUENTAID)) AND ((@IsNull_CTE_GLOSA = 1 AND [CTE_GLOSA] IS NULL) OR ([CTE_GLOSA] = @Original_CTE_GLOSA)) AND ((@IsNull_CTE_CONTABLE = 1 AND [CTE_CONTABLE] IS NULL) OR ([CTE_CONTABLE] = @Original_CTE_CONTABLE)) AND ((@IsNull_CTE_MONEDASAP = 1 AND [CTE_MONEDASAP] IS NULL) OR ([CTE_MONEDASAP] = @Original_CTE_MONEDASAP)) AND ((@IsNull_CTE_VIA = 1 AND [CTE_VIA] IS NULL) OR ([CTE_VIA] = @Original_CTE_VIA)) AND ((@IsNull_CTE_CODCTE = 1 AND [CTE_CODCTE] IS NULL) OR ([CTE_CODCTE] = @Original_CTE_CODCTE)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_CTE_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CTE_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_ENT_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="ENT_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CON_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_CON_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_MON_CODIGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_EMP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="EMP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_NUMERO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CUENTA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CUENTA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SIGLA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_SIGLA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_GRUPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_GRUPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_TIPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_COLCHON1" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@Original_CTE_COLCHON1" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_COLCHON2" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@Original_CTE_COLCHON2" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_AUDITORIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SOCIEDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CODBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CODBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CUENTAID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CUENTAID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_GLOSA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CONTABLE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CONTABLE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_MONEDASAP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_MONEDASAP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_VIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CODCTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CODCTE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[TESCTE] ([ENT_CODIGO], [CON_CODIGO], [MON_CODIGO], [EMP_CODIGO], [CTE_NUMERO], [CTE_CUENTA], [CTE_SIGLA], [CTE_GRUPO], [CTE_TIPO], [CTE_SECUENCIA], [CTE_COLCHON1], [CTE_COLCHON2], [CTE_PLAZA], [CTE_MADRE], [CTE_AUDITORIA], [CTE_SOCIEDAD], [CTE_CODBANCO], [CTE_CUENTAID], [CTE_GLOSA], [CTE_CONTABLE], [CTE_MONEDASAP], [CTE_VIA], [CTE_CODCTE]) VALUES (@ENT_CODIGO, @CON_CODIGO, @MON_CODIGO, @EMP_CODIGO, @CTE_NUMERO, @CTE_CUENTA, @CTE_SIGLA, @CTE_GRUPO, @CTE_TIPO, @CTE_SECUENCIA, @CTE_COLCHON1, @CTE_COLCHON2, @CTE_PLAZA, @CTE_MADRE, @CTE_AUDITORIA, @CTE_SOCIEDAD, @CTE_CODBANCO, @CTE_CUENTAID, @CTE_GLOSA, @CTE_CONTABLE, @CTE_MONEDASAP, @CTE_VIA, @CTE_CODCTE);
+SELECT CTE_CODIGO, ENT_CODIGO, CON_CODIGO, MON_CODIGO, EMP_CODIGO, CTE_NUMERO, CTE_CUENTA, CTE_SIGLA, CTE_GRUPO, CTE_TIPO, CTE_SECUENCIA, CTE_COLCHON1, CTE_COLCHON2, CTE_PLAZA, CTE_MADRE, CTE_AUDITORIA, CTE_SOCIEDAD, CTE_CODBANCO, CTE_CUENTAID, CTE_GLOSA, CTE_CONTABLE, CTE_MONEDASAP, CTE_VIA, CTE_CODCTE FROM TESCTE WHERE (CTE_CODIGO = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@ENT_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="ENT_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@CON_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@MON_CODIGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@EMP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="EMP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CUENTA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_SIGLA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_GRUPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@CTE_COLCHON1" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@CTE_COLCHON2" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CODBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CUENTAID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CONTABLE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_MONEDASAP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CODCTE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CTE_CODIGO, ENT_CODIGO, CON_CODIGO, MON_CODIGO, EMP_CODIGO, CTE_NUMERO, CTE_CUENTA, CTE_SIGLA, CTE_GRUPO, CTE_TIPO, CTE_SECUENCIA, CTE_COLCHON1, CTE_COLCHON2, CTE_PLAZA, CTE_MADRE, CTE_AUDITORIA, CTE_SOCIEDAD, CTE_CODBANCO, CTE_CUENTAID, CTE_GLOSA, CTE_CONTABLE, CTE_MONEDASAP, CTE_VIA, CTE_CODCTE FROM dbo.TESCTE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[TESCTE] SET [ENT_CODIGO] = @ENT_CODIGO, [CON_CODIGO] = @CON_CODIGO, [MON_CODIGO] = @MON_CODIGO, [EMP_CODIGO] = @EMP_CODIGO, [CTE_NUMERO] = @CTE_NUMERO, [CTE_CUENTA] = @CTE_CUENTA, [CTE_SIGLA] = @CTE_SIGLA, [CTE_GRUPO] = @CTE_GRUPO, [CTE_TIPO] = @CTE_TIPO, [CTE_SECUENCIA] = @CTE_SECUENCIA, [CTE_COLCHON1] = @CTE_COLCHON1, [CTE_COLCHON2] = @CTE_COLCHON2, [CTE_PLAZA] = @CTE_PLAZA, [CTE_MADRE] = @CTE_MADRE, [CTE_AUDITORIA] = @CTE_AUDITORIA, [CTE_SOCIEDAD] = @CTE_SOCIEDAD, [CTE_CODBANCO] = @CTE_CODBANCO, [CTE_CUENTAID] = @CTE_CUENTAID, [CTE_GLOSA] = @CTE_GLOSA, [CTE_CONTABLE] = @CTE_CONTABLE, [CTE_MONEDASAP] = @CTE_MONEDASAP, [CTE_VIA] = @CTE_VIA, [CTE_CODCTE] = @CTE_CODCTE WHERE (([CTE_CODIGO] = @Original_CTE_CODIGO) AND ([ENT_CODIGO] = @Original_ENT_CODIGO) AND ((@IsNull_CON_CODIGO = 1 AND [CON_CODIGO] IS NULL) OR ([CON_CODIGO] = @Original_CON_CODIGO)) AND ([MON_CODIGO] = @Original_MON_CODIGO) AND ([EMP_CODIGO] = @Original_EMP_CODIGO) AND ((@IsNull_CTE_NUMERO = 1 AND [CTE_NUMERO] IS NULL) OR ([CTE_NUMERO] = @Original_CTE_NUMERO)) AND ((@IsNull_CTE_CUENTA = 1 AND [CTE_CUENTA] IS NULL) OR ([CTE_CUENTA] = @Original_CTE_CUENTA)) AND ((@IsNull_CTE_SIGLA = 1 AND [CTE_SIGLA] IS NULL) OR ([CTE_SIGLA] = @Original_CTE_SIGLA)) AND ((@IsNull_CTE_GRUPO = 1 AND [CTE_GRUPO] IS NULL) OR ([CTE_GRUPO] = @Original_CTE_GRUPO)) AND ((@IsNull_CTE_TIPO = 1 AND [CTE_TIPO] IS NULL) OR ([CTE_TIPO] = @Original_CTE_TIPO)) AND ((@IsNull_CTE_SECUENCIA = 1 AND [CTE_SECUENCIA] IS NULL) OR ([CTE_SECUENCIA] = @Original_CTE_SECUENCIA)) AND ((@IsNull_CTE_COLCHON1 = 1 AND [CTE_COLCHON1] IS NULL) OR ([CTE_COLCHON1] = @Original_CTE_COLCHON1)) AND ((@IsNull_CTE_COLCHON2 = 1 AND [CTE_COLCHON2] IS NULL) OR ([CTE_COLCHON2] = @Original_CTE_COLCHON2)) AND ((@IsNull_CTE_PLAZA = 1 AND [CTE_PLAZA] IS NULL) OR ([CTE_PLAZA] = @Original_CTE_PLAZA)) AND ((@IsNull_CTE_MADRE = 1 AND [CTE_MADRE] IS NULL) OR ([CTE_MADRE] = @Original_CTE_MADRE)) AND ((@IsNull_CTE_AUDITORIA = 1 AND [CTE_AUDITORIA] IS NULL) OR ([CTE_AUDITORIA] = @Original_CTE_AUDITORIA)) AND ((@IsNull_CTE_SOCIEDAD = 1 AND [CTE_SOCIEDAD] IS NULL) OR ([CTE_SOCIEDAD] = @Original_CTE_SOCIEDAD)) AND ((@IsNull_CTE_CODBANCO = 1 AND [CTE_CODBANCO] IS NULL) OR ([CTE_CODBANCO] = @Original_CTE_CODBANCO)) AND ((@IsNull_CTE_CUENTAID = 1 AND [CTE_CUENTAID] IS NULL) OR ([CTE_CUENTAID] = @Original_CTE_CUENTAID)) AND ((@IsNull_CTE_GLOSA = 1 AND [CTE_GLOSA] IS NULL) OR ([CTE_GLOSA] = @Original_CTE_GLOSA)) AND ((@IsNull_CTE_CONTABLE = 1 AND [CTE_CONTABLE] IS NULL) OR ([CTE_CONTABLE] = @Original_CTE_CONTABLE)) AND ((@IsNull_CTE_MONEDASAP = 1 AND [CTE_MONEDASAP] IS NULL) OR ([CTE_MONEDASAP] = @Original_CTE_MONEDASAP)) AND ((@IsNull_CTE_VIA = 1 AND [CTE_VIA] IS NULL) OR ([CTE_VIA] = @Original_CTE_VIA)) AND ((@IsNull_CTE_CODCTE = 1 AND [CTE_CODCTE] IS NULL) OR ([CTE_CODCTE] = @Original_CTE_CODCTE)));
+SELECT CTE_CODIGO, ENT_CODIGO, CON_CODIGO, MON_CODIGO, EMP_CODIGO, CTE_NUMERO, CTE_CUENTA, CTE_SIGLA, CTE_GRUPO, CTE_TIPO, CTE_SECUENCIA, CTE_COLCHON1, CTE_COLCHON2, CTE_PLAZA, CTE_MADRE, CTE_AUDITORIA, CTE_SOCIEDAD, CTE_CODBANCO, CTE_CUENTAID, CTE_GLOSA, CTE_CONTABLE, CTE_MONEDASAP, CTE_VIA, CTE_CODCTE FROM TESCTE WHERE (CTE_CODIGO = @CTE_CODIGO)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@ENT_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="ENT_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@CON_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@MON_CODIGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@EMP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="EMP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CUENTA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_SIGLA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_GRUPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@CTE_COLCHON1" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@CTE_COLCHON2" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CODBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CUENTAID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CONTABLE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_MONEDASAP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CTE_CODCTE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_CTE_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CTE_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_ENT_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="ENT_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CON_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_CON_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="CON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_MON_CODIGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MON_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_EMP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="EMP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_NUMERO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_NUMERO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CUENTA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CUENTA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SIGLA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_SIGLA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SIGLA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_GRUPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_GRUPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GRUPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_TIPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_TIPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_SECUENCIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SECUENCIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_COLCHON1" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@Original_CTE_COLCHON1" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_COLCHON2" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Currency" Direction="Input" ParameterName="@Original_CTE_COLCHON2" Precision="0" ProviderType="Money" Scale="0" Size="0" SourceColumn="CTE_COLCHON2" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_PLAZA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_PLAZA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CTE_MADRE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MADRE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_AUDITORIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_SOCIEDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CODBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CODBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CUENTAID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CUENTAID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CUENTAID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_GLOSA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_GLOSA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CONTABLE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CONTABLE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CONTABLE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_MONEDASAP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_MONEDASAP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_MONEDASAP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_VIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_VIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CTE_CODCTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_CTE_CODCTE" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="CTE_CODCTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="CTE_CODIGO" ColumnName="CTE_CODIGO" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@CTE_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="CTE_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CTE_CODIGO" DataSetColumn="CTE_CODIGO" />
+              <Mapping SourceColumn="ENT_CODIGO" DataSetColumn="ENT_CODIGO" />
+              <Mapping SourceColumn="CON_CODIGO" DataSetColumn="CON_CODIGO" />
+              <Mapping SourceColumn="MON_CODIGO" DataSetColumn="MON_CODIGO" />
+              <Mapping SourceColumn="EMP_CODIGO" DataSetColumn="EMP_CODIGO" />
+              <Mapping SourceColumn="CTE_NUMERO" DataSetColumn="CTE_NUMERO" />
+              <Mapping SourceColumn="CTE_CUENTA" DataSetColumn="CTE_CUENTA" />
+              <Mapping SourceColumn="CTE_SIGLA" DataSetColumn="CTE_SIGLA" />
+              <Mapping SourceColumn="CTE_GRUPO" DataSetColumn="CTE_GRUPO" />
+              <Mapping SourceColumn="CTE_TIPO" DataSetColumn="CTE_TIPO" />
+              <Mapping SourceColumn="CTE_SECUENCIA" DataSetColumn="CTE_SECUENCIA" />
+              <Mapping SourceColumn="CTE_COLCHON1" DataSetColumn="CTE_COLCHON1" />
+              <Mapping SourceColumn="CTE_COLCHON2" DataSetColumn="CTE_COLCHON2" />
+              <Mapping SourceColumn="CTE_PLAZA" DataSetColumn="CTE_PLAZA" />
+              <Mapping SourceColumn="CTE_MADRE" DataSetColumn="CTE_MADRE" />
+              <Mapping SourceColumn="CTE_AUDITORIA" DataSetColumn="CTE_AUDITORIA" />
+              <Mapping SourceColumn="CTE_SOCIEDAD" DataSetColumn="CTE_SOCIEDAD" />
+              <Mapping SourceColumn="CTE_CODBANCO" DataSetColumn="CTE_CODBANCO" />
+              <Mapping SourceColumn="CTE_CUENTAID" DataSetColumn="CTE_CUENTAID" />
+              <Mapping SourceColumn="CTE_GLOSA" DataSetColumn="CTE_GLOSA" />
+              <Mapping SourceColumn="CTE_CONTABLE" DataSetColumn="CTE_CONTABLE" />
+              <Mapping SourceColumn="CTE_MONEDASAP" DataSetColumn="CTE_MONEDASAP" />
+              <Mapping SourceColumn="CTE_VIA" DataSetColumn="CTE_VIA" />
+              <Mapping SourceColumn="CTE_CODCTE" DataSetColumn="CTE_CODCTE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectName="Wallet.dbo.TESCTE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillByCTE_CODIGO" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByCTE_CODIGO" GeneratorSourceName="FillByCTE_CODIGO" GetMethodModifier="Public" GetMethodName="GetDataByCTE_CODIGO" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByCTE_CODIGO" UserSourceName="FillByCTE_CODIGO">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CTE_CODIGO, ENT_CODIGO, CON_CODIGO, MON_CODIGO, EMP_CODIGO, CTE_NUMERO, CTE_CUENTA, CTE_SIGLA, CTE_GRUPO, CTE_TIPO, CTE_SECUENCIA, CTE_COLCHON1, CTE_COLCHON2, CTE_PLAZA, 
+                         CTE_MADRE, CTE_AUDITORIA, CTE_SOCIEDAD, CTE_CODBANCO, CTE_CUENTAID, CTE_GLOSA, CTE_CONTABLE, CTE_MONEDASAP, CTE_VIA, CTE_CODCTE
+FROM            TESCTE
+WHERE        (CTE_CODIGO = @CTE_CODIGO)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="CTE_CODIGO" ColumnName="CTE_CODIGO" DataSourceName="Wallet.dbo.TESCTE" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@CTE_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="CTE_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsWALCTE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsWALCTE" msprop:Generator_UserDSName="dsWALCTE">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TESCTECompleto" msprop:Generator_TableClassName="TESCTECompletoDataTable" msprop:Generator_TableVarName="tableTESCTECompleto" msprop:Generator_RowChangedName="TESCTECompletoRowChanged" msprop:Generator_TablePropName="TESCTECompleto" msprop:Generator_RowDeletingName="TESCTECompletoRowDeleting" msprop:Generator_RowChangingName="TESCTECompletoRowChanging" msprop:Generator_RowEvHandlerName="TESCTECompletoRowChangeEventHandler" msprop:Generator_RowDeletedName="TESCTECompletoRowDeleted" msprop:Generator_RowClassName="TESCTECompletoRow" msprop:Generator_UserTableName="TESCTECompleto" msprop:Generator_RowEvArgName="TESCTECompletoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CTE_CODIGO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCTE_CODIGO" msprop:Generator_ColumnPropNameInRow="CTE_CODIGO" msprop:Generator_ColumnPropNameInTable="CTE_CODIGOColumn" msprop:Generator_UserColumnName="CTE_CODIGO" type="xs:long" />
+              <xs:element name="ENT_CODIGO" msprop:Generator_ColumnVarNameInTable="columnENT_CODIGO" msprop:Generator_ColumnPropNameInRow="ENT_CODIGO" msprop:Generator_ColumnPropNameInTable="ENT_CODIGOColumn" msprop:Generator_UserColumnName="ENT_CODIGO" type="xs:long" />
+              <xs:element name="CON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCON_CODIGO" msprop:Generator_ColumnPropNameInRow="CON_CODIGO" msprop:Generator_ColumnPropNameInTable="CON_CODIGOColumn" msprop:Generator_UserColumnName="CON_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="MON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnMON_CODIGO" msprop:Generator_ColumnPropNameInRow="MON_CODIGO" msprop:Generator_ColumnPropNameInTable="MON_CODIGOColumn" msprop:Generator_UserColumnName="MON_CODIGO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_CODIGO" msprop:Generator_ColumnVarNameInTable="columnEMP_CODIGO" msprop:Generator_ColumnPropNameInRow="EMP_CODIGO" msprop:Generator_ColumnPropNameInTable="EMP_CODIGOColumn" msprop:Generator_UserColumnName="EMP_CODIGO" type="xs:long" />
+              <xs:element name="CTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCTE_NUMERO" msprop:Generator_ColumnPropNameInRow="CTE_NUMERO" msprop:Generator_ColumnPropNameInTable="CTE_NUMEROColumn" msprop:Generator_UserColumnName="CTE_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTA" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTA" msprop:Generator_ColumnPropNameInRow="CTE_CUENTA" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAColumn" msprop:Generator_UserColumnName="CTE_CUENTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SIGLA" msprop:Generator_ColumnVarNameInTable="columnCTE_SIGLA" msprop:Generator_ColumnPropNameInRow="CTE_SIGLA" msprop:Generator_ColumnPropNameInTable="CTE_SIGLAColumn" msprop:Generator_UserColumnName="CTE_SIGLA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GRUPO" msprop:Generator_ColumnVarNameInTable="columnCTE_GRUPO" msprop:Generator_ColumnPropNameInRow="CTE_GRUPO" msprop:Generator_ColumnPropNameInTable="CTE_GRUPOColumn" msprop:Generator_UserColumnName="CTE_GRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_TIPO" msprop:Generator_ColumnVarNameInTable="columnCTE_TIPO" msprop:Generator_ColumnPropNameInRow="CTE_TIPO" msprop:Generator_ColumnPropNameInTable="CTE_TIPOColumn" msprop:Generator_UserColumnName="CTE_TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SECUENCIA" msprop:Generator_ColumnVarNameInTable="columnCTE_SECUENCIA" msprop:Generator_ColumnPropNameInRow="CTE_SECUENCIA" msprop:Generator_ColumnPropNameInTable="CTE_SECUENCIAColumn" msprop:Generator_UserColumnName="CTE_SECUENCIA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_COLCHON1" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON1" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON1" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON1Column" msprop:Generator_UserColumnName="CTE_COLCHON1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_COLCHON2" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON2" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON2" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON2Column" msprop:Generator_UserColumnName="CTE_COLCHON2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_PLAZA" msprop:Generator_ColumnVarNameInTable="columnCTE_PLAZA" msprop:Generator_ColumnPropNameInRow="CTE_PLAZA" msprop:Generator_ColumnPropNameInTable="CTE_PLAZAColumn" msprop:Generator_UserColumnName="CTE_PLAZA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_MADRE" msprop:Generator_ColumnVarNameInTable="columnCTE_MADRE" msprop:Generator_ColumnPropNameInRow="CTE_MADRE" msprop:Generator_ColumnPropNameInTable="CTE_MADREColumn" msprop:Generator_UserColumnName="CTE_MADRE" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnCTE_AUDITORIA" msprop:Generator_ColumnPropNameInRow="CTE_AUDITORIA" msprop:Generator_ColumnPropNameInTable="CTE_AUDITORIAColumn" msprop:Generator_UserColumnName="CTE_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SOCIEDAD" msprop:Generator_ColumnVarNameInTable="columnCTE_SOCIEDAD" msprop:Generator_ColumnPropNameInRow="CTE_SOCIEDAD" msprop:Generator_ColumnPropNameInTable="CTE_SOCIEDADColumn" msprop:Generator_UserColumnName="CTE_SOCIEDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODBANCO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODBANCO" msprop:Generator_ColumnPropNameInRow="CTE_CODBANCO" msprop:Generator_ColumnPropNameInTable="CTE_CODBANCOColumn" msprop:Generator_UserColumnName="CTE_CODBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTAID" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTAID" msprop:Generator_ColumnPropNameInRow="CTE_CUENTAID" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAIDColumn" msprop:Generator_UserColumnName="CTE_CUENTAID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GLOSA" msprop:Generator_ColumnVarNameInTable="columnCTE_GLOSA" msprop:Generator_ColumnPropNameInRow="CTE_GLOSA" msprop:Generator_ColumnPropNameInTable="CTE_GLOSAColumn" msprop:Generator_UserColumnName="CTE_GLOSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CONTABLE" msprop:Generator_ColumnVarNameInTable="columnCTE_CONTABLE" msprop:Generator_ColumnPropNameInRow="CTE_CONTABLE" msprop:Generator_ColumnPropNameInTable="CTE_CONTABLEColumn" msprop:Generator_UserColumnName="CTE_CONTABLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_MONEDASAP" msprop:Generator_ColumnVarNameInTable="columnCTE_MONEDASAP" msprop:Generator_ColumnPropNameInRow="CTE_MONEDASAP" msprop:Generator_ColumnPropNameInTable="CTE_MONEDASAPColumn" msprop:Generator_UserColumnName="CTE_MONEDASAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_VIA" msprop:Generator_ColumnVarNameInTable="columnCTE_VIA" msprop:Generator_ColumnPropNameInRow="CTE_VIA" msprop:Generator_ColumnPropNameInTable="CTE_VIAColumn" msprop:Generator_UserColumnName="CTE_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODCTE" msprop:Generator_ColumnVarNameInTable="columnCTE_CODCTE" msprop:Generator_ColumnPropNameInRow="CTE_CODCTE" msprop:Generator_ColumnPropNameInTable="CTE_CODCTEColumn" msprop:Generator_UserColumnName="CTE_CODCTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MON_MONEDA" msprop:Generator_ColumnVarNameInTable="columnMON_MONEDA" msprop:Generator_ColumnPropNameInRow="MON_MONEDA" msprop:Generator_ColumnPropNameInTable="MON_MONEDAColumn" msprop:Generator_UserColumnName="MON_MONEDA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_EMPRESA" msprop:Generator_ColumnVarNameInTable="columnEMP_EMPRESA" msprop:Generator_ColumnPropNameInRow="EMP_EMPRESA" msprop:Generator_ColumnPropNameInTable="EMP_EMPRESAColumn" msprop:Generator_UserColumnName="EMP_EMPRESA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CON_NOMBRE" msprop:Generator_ColumnVarNameInTable="columnCON_NOMBRE" msprop:Generator_ColumnPropNameInRow="CON_NOMBRE" msprop:Generator_ColumnPropNameInTable="CON_NOMBREColumn" msprop:Generator_UserColumnName="CON_NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_RAZON" msprop:Generator_ColumnVarNameInTable="columnENT_RAZON" msprop:Generator_ColumnPropNameInRow="ENT_RAZON" msprop:Generator_ColumnPropNameInTable="ENT_RAZONColumn" msprop:Generator_UserColumnName="ENT_RAZON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_ABREVIATURA" msprop:Generator_ColumnVarNameInTable="columnENT_ABREVIATURA" msprop:Generator_ColumnPropNameInRow="ENT_ABREVIATURA" msprop:Generator_ColumnPropNameInTable="ENT_ABREVIATURAColumn" msprop:Generator_UserColumnName="ENT_ABREVIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESCTE" msprop:Generator_TableClassName="TESCTEDataTable" msprop:Generator_TableVarName="tableTESCTE" msprop:Generator_TablePropName="TESCTE" msprop:Generator_RowDeletingName="TESCTERowDeleting" msprop:Generator_RowChangingName="TESCTERowChanging" msprop:Generator_RowEvHandlerName="TESCTERowChangeEventHandler" msprop:Generator_RowDeletedName="TESCTERowDeleted" msprop:Generator_UserTableName="TESCTE" msprop:Generator_RowChangedName="TESCTERowChanged" msprop:Generator_RowEvArgName="TESCTERowChangeEvent" msprop:Generator_RowClassName="TESCTERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CTE_CODIGO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCTE_CODIGO" msprop:Generator_ColumnPropNameInRow="CTE_CODIGO" msprop:Generator_ColumnPropNameInTable="CTE_CODIGOColumn" msprop:Generator_UserColumnName="CTE_CODIGO" type="xs:long" />
+              <xs:element name="ENT_CODIGO" msprop:Generator_ColumnVarNameInTable="columnENT_CODIGO" msprop:Generator_ColumnPropNameInRow="ENT_CODIGO" msprop:Generator_ColumnPropNameInTable="ENT_CODIGOColumn" msprop:Generator_UserColumnName="ENT_CODIGO" type="xs:long" />
+              <xs:element name="CON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCON_CODIGO" msprop:Generator_ColumnPropNameInRow="CON_CODIGO" msprop:Generator_ColumnPropNameInTable="CON_CODIGOColumn" msprop:Generator_UserColumnName="CON_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="MON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnMON_CODIGO" msprop:Generator_ColumnPropNameInRow="MON_CODIGO" msprop:Generator_ColumnPropNameInTable="MON_CODIGOColumn" msprop:Generator_UserColumnName="MON_CODIGO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_CODIGO" msprop:Generator_ColumnVarNameInTable="columnEMP_CODIGO" msprop:Generator_ColumnPropNameInRow="EMP_CODIGO" msprop:Generator_ColumnPropNameInTable="EMP_CODIGOColumn" msprop:Generator_UserColumnName="EMP_CODIGO" type="xs:long" />
+              <xs:element name="CTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCTE_NUMERO" msprop:Generator_ColumnPropNameInRow="CTE_NUMERO" msprop:Generator_ColumnPropNameInTable="CTE_NUMEROColumn" msprop:Generator_UserColumnName="CTE_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTA" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTA" msprop:Generator_ColumnPropNameInRow="CTE_CUENTA" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAColumn" msprop:Generator_UserColumnName="CTE_CUENTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SIGLA" msprop:Generator_ColumnVarNameInTable="columnCTE_SIGLA" msprop:Generator_ColumnPropNameInRow="CTE_SIGLA" msprop:Generator_ColumnPropNameInTable="CTE_SIGLAColumn" msprop:Generator_UserColumnName="CTE_SIGLA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GRUPO" msprop:Generator_ColumnVarNameInTable="columnCTE_GRUPO" msprop:Generator_ColumnPropNameInRow="CTE_GRUPO" msprop:Generator_ColumnPropNameInTable="CTE_GRUPOColumn" msprop:Generator_UserColumnName="CTE_GRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_TIPO" msprop:Generator_ColumnVarNameInTable="columnCTE_TIPO" msprop:Generator_ColumnPropNameInRow="CTE_TIPO" msprop:Generator_ColumnPropNameInTable="CTE_TIPOColumn" msprop:Generator_UserColumnName="CTE_TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SECUENCIA" msprop:Generator_ColumnVarNameInTable="columnCTE_SECUENCIA" msprop:Generator_ColumnPropNameInRow="CTE_SECUENCIA" msprop:Generator_ColumnPropNameInTable="CTE_SECUENCIAColumn" msprop:Generator_UserColumnName="CTE_SECUENCIA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_COLCHON1" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON1" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON1" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON1Column" msprop:Generator_UserColumnName="CTE_COLCHON1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_COLCHON2" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON2" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON2" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON2Column" msprop:Generator_UserColumnName="CTE_COLCHON2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_PLAZA" msprop:Generator_ColumnVarNameInTable="columnCTE_PLAZA" msprop:Generator_ColumnPropNameInRow="CTE_PLAZA" msprop:Generator_ColumnPropNameInTable="CTE_PLAZAColumn" msprop:Generator_UserColumnName="CTE_PLAZA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_MADRE" msprop:Generator_ColumnVarNameInTable="columnCTE_MADRE" msprop:Generator_ColumnPropNameInRow="CTE_MADRE" msprop:Generator_ColumnPropNameInTable="CTE_MADREColumn" msprop:Generator_UserColumnName="CTE_MADRE" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnCTE_AUDITORIA" msprop:Generator_ColumnPropNameInRow="CTE_AUDITORIA" msprop:Generator_ColumnPropNameInTable="CTE_AUDITORIAColumn" msprop:Generator_UserColumnName="CTE_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SOCIEDAD" msprop:Generator_ColumnVarNameInTable="columnCTE_SOCIEDAD" msprop:Generator_ColumnPropNameInRow="CTE_SOCIEDAD" msprop:Generator_ColumnPropNameInTable="CTE_SOCIEDADColumn" msprop:Generator_UserColumnName="CTE_SOCIEDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODBANCO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODBANCO" msprop:Generator_ColumnPropNameInRow="CTE_CODBANCO" msprop:Generator_ColumnPropNameInTable="CTE_CODBANCOColumn" msprop:Generator_UserColumnName="CTE_CODBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTAID" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTAID" msprop:Generator_ColumnPropNameInRow="CTE_CUENTAID" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAIDColumn" msprop:Generator_UserColumnName="CTE_CUENTAID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GLOSA" msprop:Generator_ColumnVarNameInTable="columnCTE_GLOSA" msprop:Generator_ColumnPropNameInRow="CTE_GLOSA" msprop:Generator_ColumnPropNameInTable="CTE_GLOSAColumn" msprop:Generator_UserColumnName="CTE_GLOSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CONTABLE" msprop:Generator_ColumnVarNameInTable="columnCTE_CONTABLE" msprop:Generator_ColumnPropNameInRow="CTE_CONTABLE" msprop:Generator_ColumnPropNameInTable="CTE_CONTABLEColumn" msprop:Generator_UserColumnName="CTE_CONTABLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_MONEDASAP" msprop:Generator_ColumnVarNameInTable="columnCTE_MONEDASAP" msprop:Generator_ColumnPropNameInRow="CTE_MONEDASAP" msprop:Generator_ColumnPropNameInTable="CTE_MONEDASAPColumn" msprop:Generator_UserColumnName="CTE_MONEDASAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_VIA" msprop:Generator_ColumnVarNameInTable="columnCTE_VIA" msprop:Generator_ColumnPropNameInRow="CTE_VIA" msprop:Generator_ColumnPropNameInTable="CTE_VIAColumn" msprop:Generator_UserColumnName="CTE_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODCTE" msprop:Generator_ColumnVarNameInTable="columnCTE_CODCTE" msprop:Generator_ColumnPropNameInRow="CTE_CODCTE" msprop:Generator_ColumnPropNameInTable="CTE_CODCTEColumn" msprop:Generator_UserColumnName="CTE_CODCTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TESCTECompleto" />
+      <xs:field xpath="mstns:CTE_CODIGO" />
+    </xs:unique>
+    <xs:unique name="TESCTE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TESCTE" />
+      <xs:field xpath="mstns:CTE_CODIGO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

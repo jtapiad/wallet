@@ -1,0 +1,2024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1743943-7DC1-4442-8BB0-2C678EC15084}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Wallet.My.MyApplication</StartupObject>
+    <RootNamespace>Wallet</RootNamespace>
+    <AssemblyName>Wallet</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Wallet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Wallet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\IconoWallet.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Vsa, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Syncfusion.Chart.Base, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Chart.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Chart.Windows, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Chart.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Diagram.Base, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Diagram.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Grouping.Base, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Grouping.Windows, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Windows, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.GridHelperClasses.Windows, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.GridHelperClasses.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grouping.Base, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grouping.Windows, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Grouping.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.HTMLUI.Base, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.HTMLUI.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.HTMLUI.Windows, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.HTMLUI.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Windows, Version=13.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Pdf.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Schedule.Base, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Schedule.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Schedule.Windows, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Schedule.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Scripting.Base, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Scripting.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Scripting.Windows, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Scripting.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Windows, Version=14.2460.0.32, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Base, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows, Version=13.2451.0.29, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\13.2.0.29\Assemblies\4.5.1\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CrystalDecisions.CrystalReports.Design.CodeGen" />
+    <Import Include="CrystalDecisions.CrystalReports.Engine" />
+    <Import Include="CrystalDecisions.CrystalReports.Engine.Migration" />
+    <Import Include="CrystalDecisions.CrystalReports.EPFPageObjectFactory" />
+    <Import Include="CrystalDecisions.CrystalReports.ETFTotallerTreeFactory" />
+    <Import Include="CrystalDecisions.CrystalReports.SCREventLog" />
+    <Import Include="CrystalDecisions.CrystalReports.TSLV" />
+    <Import Include="CrystalDecisions.CrystalReports.ViewerObjectModel" />
+    <Import Include="CrystalDecisions.Data" />
+    <Import Include="CrystalDecisions.Data.AdoDotNetInterop" />
+    <Import Include="CrystalDecisions.ReportAppServer" />
+    <Import Include="CrystalDecisions.ReportSource" />
+    <Import Include="CrystalDecisions.Shared" />
+    <Import Include="CrystalDecisions.Shared.Interop" />
+    <Import Include="CrystalDecisions.Shared.Json" />
+    <Import Include="CrystalDecisions.Web.Design" />
+    <Import Include="CrystalDecisions.Web.HtmlReportRender" />
+    <Import Include="CrystalDecisions.Windows.Forms" />
+    <Import Include="CrystalDecisions.Windows.Forms.Internal.Win32" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Syncfusion.Windows.Forms" />
+    <Import Include="Syncfusion.Windows.Forms.Tools" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\NodoOpcion.vb" />
+    <Compile Include="Datasets\dsSEGMEN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSEGMEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsSEGMEN.vb">
+      <DependentUpon>dsSEGMEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsSEGPER.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSEGPER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsSEGUSU.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSEGUSU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsSEGUSU.vb">
+      <DependentUpon>dsSEGUSU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALBEN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALBEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCLC.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALCLC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCLC.vb">
+      <DependentUpon>dsWALCLC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCOT.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALCOT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCOT.vb">
+      <DependentUpon>dsWALCOT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCTE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALCTE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCUA.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALCUA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCUA.vb">
+      <DependentUpon>dsWALCUA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALCUS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALCUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALELE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALELE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALEMP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALEMP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALEMP.vb">
+      <DependentUpon>dsWALEMP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALENT.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALENT.vb">
+      <DependentUpon>dsWALENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALEST.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALEST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALFER.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALFER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALFON.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALFON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALFON.vb">
+      <DependentUpon>dsWALFON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALGLO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALGLO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALINF.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALINF.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALMON.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALMON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALPLA.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALPLA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALPLA.vb">
+      <DependentUpon>dsWALPLA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALPPE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALPPE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALPPE.vb">
+      <DependentUpon>dsWALPPE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALREP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALREP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALREP.vb">
+      <DependentUpon>dsWALREP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALSAP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALSAP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALSAP.vb">
+      <DependentUpon>dsWALSAP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALTEN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALTEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALTFD.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALTFD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALTII.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALTII.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsWALTRB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWALTRB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGMEN01.Designer.vb">
+      <DependentUpon>frmSEGMEN01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGMEN01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSEGUSU05.Designer.vb">
+      <DependentUpon>frmSEGUSU05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGUSU05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALBAN00.Designer.vb">
+      <DependentUpon>frmWALBAN00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALBAN00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALBOL01.Designer.vb">
+      <DependentUpon>frmWALBOL01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALBOL01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALBOL02.Designer.vb">
+      <DependentUpon>frmWALBOL02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALBOL02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCBE00.Designer.vb">
+      <DependentUpon>frmWALCBE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCBE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCLC04.Designer.vb">
+      <DependentUpon>frmWALCLC04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCLC04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCLC02.Designer.vb">
+      <DependentUpon>frmWALCLC02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCLC02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCLC03.Designer.vb">
+      <DependentUpon>frmWALCLC03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCLC03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCLC10.Designer.vb">
+      <DependentUpon>frmWALCLC10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCLC10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCLC11.Designer.vb">
+      <DependentUpon>frmWALCLC11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCLC11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCOT00.Designer.vb">
+      <DependentUpon>frmWALCOT00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCOT00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCOT01.Designer.vb">
+      <DependentUpon>frmWALCOT01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCOT01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCOT02.Designer.vb">
+      <DependentUpon>frmWALCOT02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCOT02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCTE01.Designer.vb">
+      <DependentUpon>frmWALCTE01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCTE01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCUA00.Designer.vb">
+      <DependentUpon>frmWALCUA00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCUA00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCUA01.Designer.vb">
+      <DependentUpon>frmWALCUA01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCUA01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDET00.Designer.vb">
+      <DependentUpon>frmWALDET00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDET00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDET01.Designer.vb">
+      <DependentUpon>frmWALDET01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDET01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDEV01.Designer.vb">
+      <DependentUpon>frmWALDEV01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDEV01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDIF00.Designer.vb">
+      <DependentUpon>frmWALDIF00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDIF00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDRE00.Designer.vb">
+      <DependentUpon>frmWALDRE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDRE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALDRE01.Designer.vb">
+      <DependentUpon>frmWALDRE01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALDRE01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALELE00.Designer.vb">
+      <DependentUpon>frmWALELE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALELE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALENT01.Designer.vb">
+      <DependentUpon>frmWALENT01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALENT01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALFER00.Designer.vb">
+      <DependentUpon>frmWALFER00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALFER00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALGLO00.Designer.vb">
+      <DependentUpon>frmWALGLO00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALGLO00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALGMO00.Designer.vb">
+      <DependentUpon>frmWALGMO00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALGMO00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALINF00.Designer.vb">
+      <DependentUpon>frmWALINF00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALINF00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALINV00.Designer.vb">
+      <DependentUpon>frmWALINV00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALINV00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALIRE00.Designer.vb">
+      <DependentUpon>frmWALIRE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALIRE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALLIS00.Designer.vb">
+      <DependentUpon>frmWALLIS00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALLIS00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALLIS99.Designer.vb">
+      <DependentUpon>frmWALLIS99.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALLIS99.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALPER04.Designer.vb">
+      <DependentUpon>frmWALPER04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALPER04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALPOD00.Designer.vb">
+      <DependentUpon>frmWALPOD00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALPOD00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALPPE00.Designer.vb">
+      <DependentUpon>frmWALPPE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALPPE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRDE00.Designer.vb">
+      <DependentUpon>frmWALRDE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRDE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALREC01.Designer.vb">
+      <DependentUpon>frmWALREC01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALREC01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRED00.Designer.vb">
+      <DependentUpon>frmWALRED00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRED00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRED01.Designer.vb">
+      <DependentUpon>frmWALRED01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRED01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRES00.Designer.vb">
+      <DependentUpon>frmWALRES00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRES00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRES01.Designer.vb">
+      <DependentUpon>frmWALRES01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRES01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRID00.Designer.vb">
+      <DependentUpon>frmWALRID00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRID00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALRSM00.Designer.vb">
+      <DependentUpon>frmWALRSM00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALRSM00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP00.Designer.vb">
+      <DependentUpon>frmWALSAP00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP01.Designer.vb">
+      <DependentUpon>frmWALSAP01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP02.Designer.vb">
+      <DependentUpon>frmWALSAP02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP03.Designer.vb">
+      <DependentUpon>frmWALSAP03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP04.Designer.vb">
+      <DependentUpon>frmWALSAP04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP05.Designer.vb">
+      <DependentUpon>frmWALSAP05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALSAP06.Designer.vb">
+      <DependentUpon>frmWALSAP06.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALSAP06.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALTEN00.Designer.vb">
+      <DependentUpon>frmWALTEN00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALTEN00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALTFD00.Designer.vb">
+      <DependentUpon>frmWALTFD00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALTFD00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALTII00.Designer.vb">
+      <DependentUpon>frmWALTII00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALTII00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALTRB00.Designer.vb">
+      <DependentUpon>frmWALTRB00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALTRB00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALTREC00.Designer.vb">
+      <DependentUpon>frmWALTREC00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALTREC00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptExtInvRsm.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExtInvRsm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptCtaCte00.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCtaCte00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptDetalles00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDetalles00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptDetalles99.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDetalles99.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptExtInvBan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExtInvBan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptExtInvFon.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExtInvFon.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptExtInvPes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExtInvPes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptExtInvRes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExtInvRes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptFeriados00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFeriados00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptFondos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFondos00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptGrafico01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGrafico01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptInstrumentos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInstrumentos00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptPlanilla00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPlanilla00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="frmSEGACE.Designer.vb">
+      <DependentUpon>frmSEGACE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGACE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSEGPER00.Designer.vb">
+      <DependentUpon>frmSEGPER00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGPER00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSEGPER01.Designer.vb">
+      <DependentUpon>frmSEGPER01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGPER01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSEGUSU03.Designer.vb">
+      <DependentUpon>frmSEGUSU03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGUSU03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSEGUSU04.Designer.vb">
+      <DependentUpon>frmSEGUSU04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSEGUSU04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALBEN00.Designer.vb">
+      <DependentUpon>frmWALBEN00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALBEN00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCTE00.Designer.vb">
+      <DependentUpon>frmWALCTE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCTE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALCUS00.Designer.vb">
+      <DependentUpon>frmWALCUS00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALCUS00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALEMP00.Designer.vb">
+      <DependentUpon>frmWALEMP00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALEMP00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALENT00.Designer.vb">
+      <DependentUpon>frmWALENT00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALENT00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALEST00.Designer.vb">
+      <DependentUpon>frmWALEST00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALEST00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALFON00.Designer.vb">
+      <DependentUpon>frmWALFON00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALFON00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALMDE00.Designer.vb">
+      <DependentUpon>frmWALMDE00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALMDE00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALMMO00.Designer.vb">
+      <DependentUpon>frmWALMMO00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALMMO00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALPLA00.Designer.vb">
+      <DependentUpon>frmWALPLA00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALPLA00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALREP00.Designer.vb">
+      <DependentUpon>frmWALREP00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALREP00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWALxxx00.Designer.vb">
+      <DependentUpon>frmWALxxx00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWALxxx00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.vb">
+      <DependentUpon>MDIPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\rptCustodias00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustodias00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptEmpresas00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEmpresas00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptEntidades00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEntidades00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptEstados00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEstados00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptPOPBOL01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOPBOL01.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptPOPBOL02.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOPBOL02.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptRecaudacion01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRecaudacion01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptRecDisponible00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRecDisponible00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptResumen00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumen00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptResumenIni01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenIni01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptTasasBancos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTasasBancos00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptTasasFondos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTasasFondos00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptTESFON01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTESFON01.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptTiposEntidades00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTiposEntidades00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptTiposFondos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTiposFondos00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptTiposInstrumentos00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTiposInstrumentos00.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptUsuarios00.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptUsuarios00.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptWALREC01.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWALREC01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reportes\rptWALREC02.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWALREC02.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SeguridadModulo1.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmSEGMEN01.resx">
+      <DependentUpon>frmSEGMEN01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGUSU05.resx">
+      <DependentUpon>frmSEGUSU05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALBAN00.resx">
+      <DependentUpon>frmWALBAN00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALBOL01.resx">
+      <DependentUpon>frmWALBOL01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALBOL02.resx">
+      <DependentUpon>frmWALBOL02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCBE00.resx">
+      <DependentUpon>frmWALCBE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCLC04.resx">
+      <DependentUpon>frmWALCLC04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCLC02.resx">
+      <DependentUpon>frmWALCLC02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCLC03.resx">
+      <DependentUpon>frmWALCLC03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCLC10.resx">
+      <DependentUpon>frmWALCLC10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCLC11.resx">
+      <DependentUpon>frmWALCLC11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCOT00.resx">
+      <DependentUpon>frmWALCOT00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCOT01.resx">
+      <DependentUpon>frmWALCOT01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCOT02.resx">
+      <DependentUpon>frmWALCOT02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCTE01.resx">
+      <DependentUpon>frmWALCTE01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCUA00.resx">
+      <DependentUpon>frmWALCUA00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCUA01.resx">
+      <DependentUpon>frmWALCUA01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDET00.resx">
+      <DependentUpon>frmWALDET00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDET01.resx">
+      <DependentUpon>frmWALDET01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDEV01.resx">
+      <DependentUpon>frmWALDEV01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDIF00.resx">
+      <DependentUpon>frmWALDIF00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDRE00.resx">
+      <DependentUpon>frmWALDRE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALDRE01.resx">
+      <DependentUpon>frmWALDRE01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALELE00.resx">
+      <DependentUpon>frmWALELE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALENT01.resx">
+      <DependentUpon>frmWALENT01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALFER00.resx">
+      <DependentUpon>frmWALFER00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALGLO00.resx">
+      <DependentUpon>frmWALGLO00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALGMO00.resx">
+      <DependentUpon>frmWALGMO00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALINF00.resx">
+      <DependentUpon>frmWALINF00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALINV00.resx">
+      <DependentUpon>frmWALINV00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALIRE00.resx">
+      <DependentUpon>frmWALIRE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALLIS00.resx">
+      <DependentUpon>frmWALLIS00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALLIS99.resx">
+      <DependentUpon>frmWALLIS99.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALPER04.resx">
+      <DependentUpon>frmWALPER04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALPOD00.resx">
+      <DependentUpon>frmWALPOD00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALPPE00.resx">
+      <DependentUpon>frmWALPPE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRDE00.resx">
+      <DependentUpon>frmWALRDE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALREC01.resx">
+      <DependentUpon>frmWALREC01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRED00.resx">
+      <DependentUpon>frmWALRED00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRED01.resx">
+      <DependentUpon>frmWALRED01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRES00.resx">
+      <DependentUpon>frmWALRES00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRES01.resx">
+      <DependentUpon>frmWALRES01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRID00.resx">
+      <DependentUpon>frmWALRID00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALRSM00.resx">
+      <DependentUpon>frmWALRSM00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP00.resx">
+      <DependentUpon>frmWALSAP00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP01.resx">
+      <DependentUpon>frmWALSAP01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP02.resx">
+      <DependentUpon>frmWALSAP02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP03.resx">
+      <DependentUpon>frmWALSAP03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP04.resx">
+      <DependentUpon>frmWALSAP04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP05.resx">
+      <DependentUpon>frmWALSAP05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALSAP06.resx">
+      <DependentUpon>frmWALSAP06.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALTEN00.resx">
+      <DependentUpon>frmWALTEN00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALTFD00.resx">
+      <DependentUpon>frmWALTFD00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALTII00.resx">
+      <DependentUpon>frmWALTII00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALTRB00.resx">
+      <DependentUpon>frmWALTRB00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALTREC00.resx">
+      <DependentUpon>frmWALTREC00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptExtInvRsm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExtInvRsm.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptCtaCte00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCtaCte00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptDetalles00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDetalles00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptDetalles99.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDetalles99.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptExtInvBan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExtInvBan.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptExtInvFon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExtInvFon.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptExtInvPes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExtInvPes.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptExtInvRes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExtInvRes.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptFeriados00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFeriados00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptFondos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFondos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptGrafico01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGrafico01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptInstrumentos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInstrumentos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptPlanilla00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPlanilla00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGACE.resx">
+      <DependentUpon>frmSEGACE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGPER00.resx">
+      <DependentUpon>frmSEGPER00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGPER01.resx">
+      <DependentUpon>frmSEGPER01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGUSU03.resx">
+      <DependentUpon>frmSEGUSU03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSEGUSU04.resx">
+      <DependentUpon>frmSEGUSU04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALBEN00.resx">
+      <DependentUpon>frmWALBEN00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCTE00.resx">
+      <DependentUpon>frmWALCTE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALCUS00.resx">
+      <DependentUpon>frmWALCUS00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALEMP00.resx">
+      <DependentUpon>frmWALEMP00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALENT00.resx">
+      <DependentUpon>frmWALENT00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALEST00.resx">
+      <DependentUpon>frmWALEST00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALFON00.resx">
+      <DependentUpon>frmWALFON00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALMDE00.resx">
+      <DependentUpon>frmWALMDE00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALMMO00.resx">
+      <DependentUpon>frmWALMMO00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALPLA00.resx">
+      <DependentUpon>frmWALPLA00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALREP00.resx">
+      <DependentUpon>frmWALREP00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWALxxx00.resx">
+      <DependentUpon>frmWALxxx00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptCustodias00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustodias00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptEmpresas00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEmpresas00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptEntidades00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEntidades00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptEstados00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEstados00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptPOPBOL01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOPBOL01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptPOPBOL02.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOPBOL02.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptRecaudacion01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRecaudacion01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptRecDisponible00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRecDisponible00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptResumen00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumen00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptResumenIni01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenIni01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTasasBancos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTasasBancos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTasasFondos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTasasFondos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTESFON01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTESFON01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTiposEntidades00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTiposEntidades00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTiposFondos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTiposFondos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptTiposInstrumentos00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTiposInstrumentos00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptUsuarios00.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptUsuarios00.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptWALREC01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWALREC01.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptWALREC02.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWALREC02.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Wallet.exe.config" />
+    <None Include="bin\Debug\Wallet.vshost.exe.config" />
+    <None Include="bin\Debug\Wallet.vshost.exe.manifest" />
+    <None Include="bin\Debug\WallwtCrip.config" />
+    <None Include="bin\Release\Wallet.exe.config" />
+    <None Include="bin\Release\Wallet.vshost.exe.config" />
+    <None Include="bin\Release\Wallet.vshost.exe.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Datasets\dsSEGMEN.xsc">
+      <DependentUpon>dsSEGMEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsSEGMEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSEGMEN.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsSEGMEN.xss">
+      <DependentUpon>dsSEGMEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsSEGPER.xsc">
+      <DependentUpon>dsSEGPER.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsSEGPER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSEGPER.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsSEGPER.xss">
+      <DependentUpon>dsSEGPER.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsSEGUSU.xsc">
+      <DependentUpon>dsSEGUSU.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsSEGUSU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSEGUSU.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsSEGUSU.xss">
+      <DependentUpon>dsSEGUSU.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALBEN.xsc">
+      <DependentUpon>dsWALBEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALBEN.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALBEN.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALBEN.xss">
+      <DependentUpon>dsWALBEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCLC.xsc">
+      <DependentUpon>dsWALCLC.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCLC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALCLC.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALCLC.xss">
+      <DependentUpon>dsWALCLC.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCOT.xsc">
+      <DependentUpon>dsWALCOT.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCOT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALCOT.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALCOT.xss">
+      <DependentUpon>dsWALCOT.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCTE.xsc">
+      <DependentUpon>dsWALCTE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCTE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALCTE.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALCTE.xss">
+      <DependentUpon>dsWALCTE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCUA.xsc">
+      <DependentUpon>dsWALCUA.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCUA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALCUA.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALCUA.xss">
+      <DependentUpon>dsWALCUA.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCUS.xsc">
+      <DependentUpon>dsWALCUS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALCUS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALCUS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALCUS.xss">
+      <DependentUpon>dsWALCUS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALELE.xsc">
+      <DependentUpon>dsWALELE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALELE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALELE.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALELE.xss">
+      <DependentUpon>dsWALELE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALEMP.xsc">
+      <DependentUpon>dsWALEMP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALEMP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALEMP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALEMP.xss">
+      <DependentUpon>dsWALEMP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALENT.xsc">
+      <DependentUpon>dsWALENT.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALENT.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALENT.xss">
+      <DependentUpon>dsWALENT.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALEST.xsc">
+      <DependentUpon>dsWALEST.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALEST.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALEST.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALEST.xss">
+      <DependentUpon>dsWALEST.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALFER.xsc">
+      <DependentUpon>dsWALFER.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALFER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALFER.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALFER.xss">
+      <DependentUpon>dsWALFER.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALFON.xsc">
+      <DependentUpon>dsWALFON.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALFON.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALFON.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALFON.xss">
+      <DependentUpon>dsWALFON.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALGLO.xsc">
+      <DependentUpon>dsWALGLO.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALGLO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALGLO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALGLO.xss">
+      <DependentUpon>dsWALGLO.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALINF.xsc">
+      <DependentUpon>dsWALINF.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALINF.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALINF.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALINF.xss">
+      <DependentUpon>dsWALINF.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALMON.xsc">
+      <DependentUpon>dsWALMON.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALMON.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALMON.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALMON.xss">
+      <DependentUpon>dsWALMON.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALPLA.xsc">
+      <DependentUpon>dsWALPLA.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALPLA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALPLA.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALPLA.xss">
+      <DependentUpon>dsWALPLA.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALPPE.xsc">
+      <DependentUpon>dsWALPPE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALPPE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALPPE.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALPPE.xss">
+      <DependentUpon>dsWALPPE.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALREP.xsc">
+      <DependentUpon>dsWALREP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALREP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALREP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALREP.xss">
+      <DependentUpon>dsWALREP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALSAP.xsc">
+      <DependentUpon>dsWALSAP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALSAP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALSAP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALSAP.xss">
+      <DependentUpon>dsWALSAP.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTEN.xsc">
+      <DependentUpon>dsWALTEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALTEN.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALTEN.xss">
+      <DependentUpon>dsWALTEN.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTFD.xsc">
+      <DependentUpon>dsWALTFD.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTFD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALTFD.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALTFD.xss">
+      <DependentUpon>dsWALTFD.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTII.xsc">
+      <DependentUpon>dsWALTII.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTII.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALTII.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALTII.xss">
+      <DependentUpon>dsWALTII.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTRB.xsc">
+      <DependentUpon>dsWALTRB.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsWALTRB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWALTRB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsWALTRB.xss">
+      <DependentUpon>dsWALTRB.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="WalletCrip.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSAPLogonCtrl">
+      <Guid>{B24944D9-1501-11CF-8981-0000E8A49FA0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SAPBAPIControlLib">
+      <Guid>{2E9A469B-F0EE-11CF-AC55-080009D213D2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SAPLogonCtrl">
+      <Guid>{B24944D9-1501-11CF-8981-0000E8A49FA0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pelota Wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo200x96.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoWallet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Totem  Copec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo 02 Logo Copec Solo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Wallet JPG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ubicacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dollar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FACE01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accept.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheque.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CrystalDecisions.CrystalReports.Design.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportSource.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Shared.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Web.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Windows.Forms.dll" />
+    <Content Include="bin\Debug\FlashControlV71.dll" />
+    <Content Include="bin\Debug\ShockwaveFlashObjects.dll" />
+    <Content Include="bin\Debug\stdole.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Base.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Base.xml" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Grouping.Base.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Grouping.Base.xml" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Grouping.Windows.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Grouping.Windows.xml" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Grouping.Windows.XmlSerializers.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Windows.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Windows.xml" />
+    <Content Include="bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grouping.Base.dll" />
+    <Content Include="bin\Debug\Syncfusion.Grouping.Base.xml" />
+    <Content Include="bin\Debug\Syncfusion.Shared.Base.dll" />
+    <Content Include="bin\Debug\Syncfusion.Shared.Base.xml" />
+    <Content Include="bin\Debug\Syncfusion.Shared.Windows.dll" />
+    <Content Include="bin\Debug\Syncfusion.Shared.Windows.xml" />
+    <Content Include="bin\Debug\Wallet.exe" />
+    <Content Include="bin\Debug\Wallet.pdb" />
+    <Content Include="bin\Debug\Wallet.vshost.exe" />
+    <Content Include="bin\Debug\Wallet.xml" />
+    <Content Include="bin\Release\Wallet.vshost.exe" />
+    <Content Include="DLLs\AxInterop.SAPFunctionsOCX.dll" />
+    <Content Include="DLLs\AxInterop.SAPLogonCtrl.dll" />
+    <Content Include="DLLs\Interop.SAPBAPIControlLib.dll" />
+    <Content Include="DLLs\Interop.SAPFunctionsOCX.dll" />
+    <Content Include="DLLs\Interop.SAPIrRfcLib.dll" />
+    <Content Include="DLLs\Interop.SAPLogonCtrl.dll" />
+    <None Include="Resources\Text.gif" />
+    <None Include="Resources\Properties.gif" />
+    <None Include="Resources\Piggy.gif" />
+    <None Include="Resources\Piggy bank.gif" />
+    <None Include="Resources\Money.gif" />
+    <None Include="Resources\Cash register.gif" />
+    <None Include="Resources\Statistics.gif" />
+    <None Include="Resources\Bar chart.gif" />
+    <None Include="Resources\Numbered list.gif" />
+    <None Include="Resources\Card file.gif" />
+    <None Include="Resources\Report.gif" />
+    <None Include="Resources\Refresh1.gif" />
+    <None Include="Resources\Excel.gif" />
+    <None Include="Resources\Microsoft-Excel-icon 24.png" />
+    <None Include="Resources\Handshake1.gif" />
+    <None Include="Resources\Handshake.gif" />
+    <None Include="Resources\Connect.gif" />
+    <None Include="Resources\Save as.gif" />
+    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\LogSAP.png" />
+    <None Include="Resources\Tick.png" />
+    <None Include="Resources\OK.gif" />
+    <None Include="Resources\Best.gif" />
+    <None Include="Resources\List.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\es\" />
+    <Folder Include="bin\Debug\Reportes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

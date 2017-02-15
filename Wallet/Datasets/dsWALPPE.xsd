@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsWALPPE" targetNamespace="http://tempuri.org/dsWALPPE.xsd" xmlns:mstns="http://tempuri.org/dsWALPPE.xsd" xmlns="http://tempuri.org/dsWALPPE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="WalletConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WalletConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wallet.My.MySettings.GlobalReference.Default.WalletConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Cuentas_PlanillaTableAdapter" GeneratorDataComponentClassName="Cuentas_PlanillaTableAdapter" Name="Cuentas_Planilla" UserDataComponentName="Cuentas_PlanillaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT TESCTE.*, TESENT.ENT_RAZON, TESENT.ENT_ABREVIATURA, TESENT.ENT_ABREVIATURA AS largo FROM TESCTE INNER JOIN TESENT ON TESCTE.ENT_CODIGO = TESENT.ENT_CODIGO WHERE (TESCTE.CTE_SECUENCIA &gt;= 100) AND (TESCTE.CTE_SECUENCIA &lt;= 999) ORDER BY TESCTE.CTE_SECUENCIA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CTE_CODIGO" DataSetColumn="CTE_CODIGO" />
+              <Mapping SourceColumn="ENT_CODIGO" DataSetColumn="ENT_CODIGO" />
+              <Mapping SourceColumn="CON_CODIGO" DataSetColumn="CON_CODIGO" />
+              <Mapping SourceColumn="MON_CODIGO" DataSetColumn="MON_CODIGO" />
+              <Mapping SourceColumn="EMP_CODIGO" DataSetColumn="EMP_CODIGO" />
+              <Mapping SourceColumn="CTE_NUMERO" DataSetColumn="CTE_NUMERO" />
+              <Mapping SourceColumn="CTE_CUENTA" DataSetColumn="CTE_CUENTA" />
+              <Mapping SourceColumn="CTE_SIGLA" DataSetColumn="CTE_SIGLA" />
+              <Mapping SourceColumn="CTE_GRUPO" DataSetColumn="CTE_GRUPO" />
+              <Mapping SourceColumn="CTE_TIPO" DataSetColumn="CTE_TIPO" />
+              <Mapping SourceColumn="CTE_SECUENCIA" DataSetColumn="CTE_SECUENCIA" />
+              <Mapping SourceColumn="CTE_COLCHON1" DataSetColumn="CTE_COLCHON1" />
+              <Mapping SourceColumn="CTE_COLCHON2" DataSetColumn="CTE_COLCHON2" />
+              <Mapping SourceColumn="CTE_PLAZA" DataSetColumn="CTE_PLAZA" />
+              <Mapping SourceColumn="CTE_MADRE" DataSetColumn="CTE_MADRE" />
+              <Mapping SourceColumn="CTE_AUDITORIA" DataSetColumn="CTE_AUDITORIA" />
+              <Mapping SourceColumn="CTE_SOCIEDAD" DataSetColumn="CTE_SOCIEDAD" />
+              <Mapping SourceColumn="CTE_CODBANCO" DataSetColumn="CTE_CODBANCO" />
+              <Mapping SourceColumn="CTE_CUENTAID" DataSetColumn="CTE_CUENTAID" />
+              <Mapping SourceColumn="CTE_GLOSA" DataSetColumn="CTE_GLOSA" />
+              <Mapping SourceColumn="CTE_CONTABLE" DataSetColumn="CTE_CONTABLE" />
+              <Mapping SourceColumn="CTE_MONEDASAP" DataSetColumn="CTE_MONEDASAP" />
+              <Mapping SourceColumn="CTE_VIA" DataSetColumn="CTE_VIA" />
+              <Mapping SourceColumn="CTE_CODCTE" DataSetColumn="CTE_CODCTE" />
+              <Mapping SourceColumn="ENT_RAZON" DataSetColumn="ENT_RAZON" />
+              <Mapping SourceColumn="ENT_ABREVIATURA" DataSetColumn="ENT_ABREVIATURA" />
+              <Mapping SourceColumn="largo" DataSetColumn="largo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TraeBancosPlanillaTableAdapter" GeneratorDataComponentClassName="TraeBancosPlanillaTableAdapter" Name="TraeBancosPlanilla" UserDataComponentName="TraeBancosPlanillaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TESCTE.CTE_CODIGO, TESCTE.ENT_CODIGO, TESCTE.CON_CODIGO, TESCTE.MON_CODIGO, TESCTE.EMP_CODIGO, TESCTE.CTE_NUMERO, TESCTE.CTE_CUENTA, TESCTE.CTE_SIGLA, TESCTE.CTE_GRUPO, 
+                         TESCTE.CTE_TIPO, TESCTE.CTE_SECUENCIA, TESCTE.CTE_COLCHON1, TESCTE.CTE_COLCHON2, TESCTE.CTE_PLAZA, TESCTE.CTE_MADRE, TESCTE.CTE_AUDITORIA, TESCTE.CTE_SOCIEDAD, 
+                         TESCTE.CTE_CODBANCO, TESCTE.CTE_CUENTAID, TESCTE.CTE_GLOSA, TESCTE.CTE_CONTABLE, TESCTE.CTE_MONEDASAP, TESCTE.CTE_VIA, TESCTE.CTE_CODCTE, TESCTE.CTE_SECUENCIA, 
+                         TESENT.ENT_CODIGO, TESENT.TEN_CODIGO, TESENT.ENT_RAZON, TESENT.ENT_ABREVIATURA, TESENT.ENT_RUT, TESENT.ENT_LIMITE, TESENT.ENT_ESTADO, TESENT.ENT_SITIO, 
+                         TESENT.ENT_AUDITORIA, TESENT.ENT_SAP
+FROM            TESCTE INNER JOIN
+                         TESENT ON TESCTE.ENT_CODIGO = TESENT.ENT_CODIGO
+WHERE        (TESCTE.CTE_SECUENCIA &gt; 99) AND (TESCTE.CTE_SECUENCIA &lt; 200)
+ORDER BY TESCTE.CTE_SECUENCIA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CTE_CODIGO" DataSetColumn="CTE_CODIGO" />
+              <Mapping SourceColumn="ENT_CODIGO" DataSetColumn="ENT_CODIGO" />
+              <Mapping SourceColumn="CON_CODIGO" DataSetColumn="CON_CODIGO" />
+              <Mapping SourceColumn="MON_CODIGO" DataSetColumn="MON_CODIGO" />
+              <Mapping SourceColumn="EMP_CODIGO" DataSetColumn="EMP_CODIGO" />
+              <Mapping SourceColumn="CTE_NUMERO" DataSetColumn="CTE_NUMERO" />
+              <Mapping SourceColumn="CTE_CUENTA" DataSetColumn="CTE_CUENTA" />
+              <Mapping SourceColumn="CTE_SIGLA" DataSetColumn="CTE_SIGLA" />
+              <Mapping SourceColumn="CTE_GRUPO" DataSetColumn="CTE_GRUPO" />
+              <Mapping SourceColumn="CTE_TIPO" DataSetColumn="CTE_TIPO" />
+              <Mapping SourceColumn="CTE_SECUENCIA" DataSetColumn="CTE_SECUENCIA" />
+              <Mapping SourceColumn="CTE_COLCHON1" DataSetColumn="CTE_COLCHON1" />
+              <Mapping SourceColumn="CTE_COLCHON2" DataSetColumn="CTE_COLCHON2" />
+              <Mapping SourceColumn="CTE_PLAZA" DataSetColumn="CTE_PLAZA" />
+              <Mapping SourceColumn="CTE_MADRE" DataSetColumn="CTE_MADRE" />
+              <Mapping SourceColumn="CTE_AUDITORIA" DataSetColumn="CTE_AUDITORIA" />
+              <Mapping SourceColumn="CTE_SOCIEDAD" DataSetColumn="CTE_SOCIEDAD" />
+              <Mapping SourceColumn="CTE_CODBANCO" DataSetColumn="CTE_CODBANCO" />
+              <Mapping SourceColumn="CTE_CUENTAID" DataSetColumn="CTE_CUENTAID" />
+              <Mapping SourceColumn="CTE_GLOSA" DataSetColumn="CTE_GLOSA" />
+              <Mapping SourceColumn="CTE_CONTABLE" DataSetColumn="CTE_CONTABLE" />
+              <Mapping SourceColumn="CTE_MONEDASAP" DataSetColumn="CTE_MONEDASAP" />
+              <Mapping SourceColumn="CTE_VIA" DataSetColumn="CTE_VIA" />
+              <Mapping SourceColumn="CTE_CODCTE" DataSetColumn="CTE_CODCTE" />
+              <Mapping SourceColumn="TEN_CODIGO" DataSetColumn="TEN_CODIGO" />
+              <Mapping SourceColumn="ENT_RAZON" DataSetColumn="ENT_RAZON" />
+              <Mapping SourceColumn="ENT_ABREVIATURA" DataSetColumn="ENT_ABREVIATURA" />
+              <Mapping SourceColumn="ENT_RUT" DataSetColumn="ENT_RUT" />
+              <Mapping SourceColumn="ENT_LIMITE" DataSetColumn="ENT_LIMITE" />
+              <Mapping SourceColumn="ENT_ESTADO" DataSetColumn="ENT_ESTADO" />
+              <Mapping SourceColumn="ENT_SITIO" DataSetColumn="ENT_SITIO" />
+              <Mapping SourceColumn="ENT_AUDITORIA" DataSetColumn="ENT_AUDITORIA" />
+              <Mapping SourceColumn="ENT_SAP" DataSetColumn="ENT_SAP" />
+              <Mapping SourceColumn="CTE_SECUENCIA1" DataSetColumn="CTE_SECUENCIA1" />
+              <Mapping SourceColumn="ENT_CODIGO1" DataSetColumn="ENT_CODIGO1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PartidasPendientesSAPTableAdapter" GeneratorDataComponentClassName="PartidasPendientesSAPTableAdapter" Name="PartidasPendientesSAP" UserDataComponentName="PartidasPendientesSAPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectName="Wallet.dbo.TESDAZ" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillbyClasedocBancoMandante" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDatabyClasedocBancoMandante" GeneratorSourceName="FillbyClasedocBancoMandante" GetMethodModifier="Public" GetMethodName="GetDatabyClasedocBancoMandante" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDatabyClasedocBancoMandante" UserSourceName="FillbyClasedocBancoMandante">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [TESDAZ] WHERE (([DAZ_CODIGO] = @Original_DAZ_CODIGO) AND ((@IsNull_DAZ_MANDANTE = 1 AND [DAZ_MANDANTE] IS NULL) OR ([DAZ_MANDANTE] = @Original_DAZ_MANDANTE)) AND ((@IsNull_DAZ_SOCIEDAD = 1 AND [DAZ_SOCIEDAD] IS NULL) OR ([DAZ_SOCIEDAD] = @Original_DAZ_SOCIEDAD)) AND ((@IsNull_DAZ_DOCCONT = 1 AND [DAZ_DOCCONT] IS NULL) OR ([DAZ_DOCCONT] = @Original_DAZ_DOCCONT)) AND ((@IsNull_DAZ_EJERCICIO = 1 AND [DAZ_EJERCICIO] IS NULL) OR ([DAZ_EJERCICIO] = @Original_DAZ_EJERCICIO)) AND ((@IsNull_DAZ_CLASEDOC = 1 AND [DAZ_CLASEDOC] IS NULL) OR ([DAZ_CLASEDOC] = @Original_DAZ_CLASEDOC)) AND ((@IsNull_DAZ_CUENTABANCO = 1 AND [DAZ_CUENTABANCO] IS NULL) OR ([DAZ_CUENTABANCO] = @Original_DAZ_CUENTABANCO)) AND ((@IsNull_DAZ_MONTO = 1 AND [DAZ_MONTO] IS NULL) OR ([DAZ_MONTO] = @Original_DAZ_MONTO)) AND ((@IsNull_DAZ_MONTOMON = 1 AND [DAZ_MONTOMON] IS NULL) OR ([DAZ_MONTOMON] = @Original_DAZ_MONTOMON)) AND ((@IsNull_DAZ_MONEDA = 1 AND [DAZ_MONEDA] IS NULL) OR ([DAZ_MONEDA] = @Original_DAZ_MONEDA)) AND ((@IsNull_DAZ_CONCEPTO = 1 AND [DAZ_CONCEPTO] IS NULL) OR ([DAZ_CONCEPTO] = @Original_DAZ_CONCEPTO)) AND ((@IsNull_DAZ_POSICION = 1 AND [DAZ_POSICION] IS NULL) OR ([DAZ_POSICION] = @Original_DAZ_POSICION)) AND ((@IsNull_DAZ_CAJA = 1 AND [DAZ_CAJA] IS NULL) OR ([DAZ_CAJA] = @Original_DAZ_CAJA)) AND ((@IsNull_DAZ_FECHADOC = 1 AND [DAZ_FECHADOC] IS NULL) OR ([DAZ_FECHADOC] = @Original_DAZ_FECHADOC)) AND ((@IsNull_DAZ_TEXTOPOS = 1 AND [DAZ_TEXTOPOS] IS NULL) OR ([DAZ_TEXTOPOS] = @Original_DAZ_TEXTOPOS)) AND ((@IsNull_DAZ_FECHAz = 1 AND [DAZ_FECHAz] IS NULL) OR ([DAZ_FECHAz] = @Original_DAZ_FECHAz)) AND ((@IsNull_DAZ_MEDIOPAGO = 1 AND [DAZ_MEDIOPAGO] IS NULL) OR ([DAZ_MEDIOPAGO] = @Original_DAZ_MEDIOPAGO)) AND ((@IsNull_DAZ_RETENCION = 1 AND [DAZ_RETENCION] IS NULL) OR ([DAZ_RETENCION] = @Original_DAZ_RETENCION)) AND ((@IsNull_DAZ_FECHADEP = 1 AND [DAZ_FECHADEP] IS NULL) OR ([DAZ_FECHADEP] = @Original_DAZ_FECHADEP)) AND ((@IsNull_DAZ_DIAS = 1 AND [DAZ_DIAS] IS NULL) OR ([DAZ_DIAS] = @Original_DAZ_DIAS)) AND ((@IsNull_DAZ_UNIDAD = 1 AND [DAZ_UNIDAD] IS NULL) OR ([DAZ_UNIDAD] = @Original_DAZ_UNIDAD)) AND ((@IsNull_DAZ_VIA = 1 AND [DAZ_VIA] IS NULL) OR ([DAZ_VIA] = @Original_DAZ_VIA)) AND ((@IsNull_DAZ_CLAVEBANCO = 1 AND [DAZ_CLAVEBANCO] IS NULL) OR ([DAZ_CLAVEBANCO] = @Original_DAZ_CLAVEBANCO)) AND ((@IsNull_DAZ_ESTATUS = 1 AND [DAZ_ESTATUS] IS NULL) OR ([DAZ_ESTATUS] = @Original_DAZ_ESTATUS)) AND ((@IsNull_DAZ_ENVIADOBANCO = 1 AND [DAZ_ENVIADOBANCO] IS NULL) OR ([DAZ_ENVIADOBANCO] = @Original_DAZ_ENVIADOBANCO)) AND ((@IsNull_DAZ_ANULADO = 1 AND [DAZ_ANULADO] IS NULL) OR ([DAZ_ANULADO] = @Original_DAZ_ANULADO)) AND ((@IsNull_DAZ_FECHAANU = 1 AND [DAZ_FECHAANU] IS NULL) OR ([DAZ_FECHAANU] = @Original_DAZ_FECHAANU)) AND ((@IsNull_DAZ_ESTADO = 1 AND [DAZ_ESTADO] IS NULL) OR ([DAZ_ESTADO] = @Original_DAZ_ESTADO)) AND ((@IsNull_PLA_CODIGO = 1 AND [PLA_CODIGO] IS NULL) OR ([PLA_CODIGO] = @Original_PLA_CODIGO)) AND ((@IsNull_DAZ_FECHADIS = 1 AND [DAZ_FECHADIS] IS NULL) OR ([DAZ_FECHADIS] = @Original_DAZ_FECHADIS)) AND ((@IsNull_DAZ_GLOSA = 1 AND [DAZ_GLOSA] IS NULL) OR ([DAZ_GLOSA] = @Original_DAZ_GLOSA)) AND ((@IsNull_DAZ_COLUMNA = 1 AND [DAZ_COLUMNA] IS NULL) OR ([DAZ_COLUMNA] = @Original_DAZ_COLUMNA)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MANDANTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MANDANTE" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_SOCIEDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_DOCCONT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_DOCCONT" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_EJERCICIO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_EJERCICIO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CLASEDOC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CLASEDOC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CUENTABANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CUENTABANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MONTO" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONTOMON" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MONTOMON" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONEDA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_MONEDA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CONCEPTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CONCEPTO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_POSICION" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_POSICION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CAJA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CAJA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADOC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADOC" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_TEXTOPOS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_TEXTOPOS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHAz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHAz" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MEDIOPAGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_MEDIOPAGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_RETENCION" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_RETENCION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADEP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADEP" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_UNIDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_UNIDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_VIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CLAVEBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CLAVEBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ESTATUS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ESTATUS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ENVIADOBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ENVIADOBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ANULADO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ANULADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHAANU" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHAANU" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ESTADO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ESTADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PLA_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_PLA_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADIS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADIS" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_GLOSA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [TESDAZ] ([DAZ_MANDANTE], [DAZ_SOCIEDAD], [DAZ_DOCCONT], [DAZ_EJERCICIO], [DAZ_CLASEDOC], [DAZ_CUENTABANCO], [DAZ_MONTO], [DAZ_MONTOMON], [DAZ_MONEDA], [DAZ_CONCEPTO], [DAZ_POSICION], [DAZ_CAJA], [DAZ_FECHADOC], [DAZ_TEXTOPOS], [DAZ_FECHAz], [DAZ_MEDIOPAGO], [DAZ_RETENCION], [DAZ_FECHADEP], [DAZ_DIAS], [DAZ_UNIDAD], [DAZ_VIA], [DAZ_CLAVEBANCO], [DAZ_ESTATUS], [DAZ_ENVIADOBANCO], [DAZ_ANULADO], [DAZ_FECHAANU], [DAZ_ESTADO], [PLA_CODIGO], [DAZ_FECHADIS], [DAZ_GLOSA], [DAZ_COLUMNA]) VALUES (@DAZ_MANDANTE, @DAZ_SOCIEDAD, @DAZ_DOCCONT, @DAZ_EJERCICIO, @DAZ_CLASEDOC, @DAZ_CUENTABANCO, @DAZ_MONTO, @DAZ_MONTOMON, @DAZ_MONEDA, @DAZ_CONCEPTO, @DAZ_POSICION, @DAZ_CAJA, @DAZ_FECHADOC, @DAZ_TEXTOPOS, @DAZ_FECHAz, @DAZ_MEDIOPAGO, @DAZ_RETENCION, @DAZ_FECHADEP, @DAZ_DIAS, @DAZ_UNIDAD, @DAZ_VIA, @DAZ_CLAVEBANCO, @DAZ_ESTATUS, @DAZ_ENVIADOBANCO, @DAZ_ANULADO, @DAZ_FECHAANU, @DAZ_ESTADO, @PLA_CODIGO, @DAZ_FECHADIS, @DAZ_GLOSA, @DAZ_COLUMNA);
+SELECT DAZ_CODIGO, DAZ_MANDANTE, DAZ_SOCIEDAD, DAZ_DOCCONT, DAZ_EJERCICIO, DAZ_CLASEDOC, DAZ_CUENTABANCO, DAZ_MONTO, DAZ_MONTOMON, DAZ_MONEDA, DAZ_CONCEPTO, DAZ_POSICION, DAZ_CAJA, DAZ_FECHADOC, DAZ_TEXTOPOS, DAZ_FECHAz, DAZ_MEDIOPAGO, DAZ_RETENCION, DAZ_FECHADEP, DAZ_DIAS, DAZ_UNIDAD, DAZ_VIA, DAZ_CLAVEBANCO, DAZ_ESTATUS, DAZ_ENVIADOBANCO, DAZ_ANULADO, DAZ_FECHAANU, DAZ_ESTADO, PLA_CODIGO, DAZ_FECHADIS, DAZ_GLOSA, DAZ_COLUMNA FROM TESDAZ WHERE (DAZ_CODIGO = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MANDANTE" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_DOCCONT" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_EJERCICIO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CLASEDOC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CUENTABANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MONTO" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MONTOMON" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_MONEDA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CONCEPTO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_POSICION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CAJA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADOC" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_TEXTOPOS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHAz" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_MEDIOPAGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_RETENCION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADEP" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_UNIDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CLAVEBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ESTATUS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ENVIADOBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ANULADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHAANU" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ESTADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@PLA_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADIS" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT TESDAZ.* FROM TESDAZ WHERE (PLA_CODIGO IS NULL) AND (DAZ_ANULADO &lt;&gt; 'S') AND (DAZ_CLASEDOC = @ClaseDoc) AND (DAZ_MONEDA = 'CLP') AND (DAZ_cuentaBANCO IN (@Banco)) AND (DAZ_MANDANTE = @Mandante)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="ClaseDoc" ColumnName="DAZ_CLASEDOC" DataSourceName="Wallet.dbo.TESDAZ" DataTypeServer="char(2)" DbType="AnsiString" Direction="Input" ParameterName="@ClaseDoc" Precision="0" ProviderType="Char" Scale="0" Size="2" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Banco" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@Banco" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Mandante" ColumnName="DAZ_MANDANTE" DataSourceName="Wallet.dbo.TESDAZ" DataTypeServer="numeric(18, 0)" DbType="Decimal" Direction="Input" ParameterName="@Mandante" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [TESDAZ] SET [DAZ_MANDANTE] = @DAZ_MANDANTE, [DAZ_SOCIEDAD] = @DAZ_SOCIEDAD, [DAZ_DOCCONT] = @DAZ_DOCCONT, [DAZ_EJERCICIO] = @DAZ_EJERCICIO, [DAZ_CLASEDOC] = @DAZ_CLASEDOC, [DAZ_CUENTABANCO] = @DAZ_CUENTABANCO, [DAZ_MONTO] = @DAZ_MONTO, [DAZ_MONTOMON] = @DAZ_MONTOMON, [DAZ_MONEDA] = @DAZ_MONEDA, [DAZ_CONCEPTO] = @DAZ_CONCEPTO, [DAZ_POSICION] = @DAZ_POSICION, [DAZ_CAJA] = @DAZ_CAJA, [DAZ_FECHADOC] = @DAZ_FECHADOC, [DAZ_TEXTOPOS] = @DAZ_TEXTOPOS, [DAZ_FECHAz] = @DAZ_FECHAz, [DAZ_MEDIOPAGO] = @DAZ_MEDIOPAGO, [DAZ_RETENCION] = @DAZ_RETENCION, [DAZ_FECHADEP] = @DAZ_FECHADEP, [DAZ_DIAS] = @DAZ_DIAS, [DAZ_UNIDAD] = @DAZ_UNIDAD, [DAZ_VIA] = @DAZ_VIA, [DAZ_CLAVEBANCO] = @DAZ_CLAVEBANCO, [DAZ_ESTATUS] = @DAZ_ESTATUS, [DAZ_ENVIADOBANCO] = @DAZ_ENVIADOBANCO, [DAZ_ANULADO] = @DAZ_ANULADO, [DAZ_FECHAANU] = @DAZ_FECHAANU, [DAZ_ESTADO] = @DAZ_ESTADO, [PLA_CODIGO] = @PLA_CODIGO, [DAZ_FECHADIS] = @DAZ_FECHADIS, [DAZ_GLOSA] = @DAZ_GLOSA, [DAZ_COLUMNA] = @DAZ_COLUMNA WHERE (([DAZ_CODIGO] = @Original_DAZ_CODIGO) AND ((@IsNull_DAZ_MANDANTE = 1 AND [DAZ_MANDANTE] IS NULL) OR ([DAZ_MANDANTE] = @Original_DAZ_MANDANTE)) AND ((@IsNull_DAZ_SOCIEDAD = 1 AND [DAZ_SOCIEDAD] IS NULL) OR ([DAZ_SOCIEDAD] = @Original_DAZ_SOCIEDAD)) AND ((@IsNull_DAZ_DOCCONT = 1 AND [DAZ_DOCCONT] IS NULL) OR ([DAZ_DOCCONT] = @Original_DAZ_DOCCONT)) AND ((@IsNull_DAZ_EJERCICIO = 1 AND [DAZ_EJERCICIO] IS NULL) OR ([DAZ_EJERCICIO] = @Original_DAZ_EJERCICIO)) AND ((@IsNull_DAZ_CLASEDOC = 1 AND [DAZ_CLASEDOC] IS NULL) OR ([DAZ_CLASEDOC] = @Original_DAZ_CLASEDOC)) AND ((@IsNull_DAZ_CUENTABANCO = 1 AND [DAZ_CUENTABANCO] IS NULL) OR ([DAZ_CUENTABANCO] = @Original_DAZ_CUENTABANCO)) AND ((@IsNull_DAZ_MONTO = 1 AND [DAZ_MONTO] IS NULL) OR ([DAZ_MONTO] = @Original_DAZ_MONTO)) AND ((@IsNull_DAZ_MONTOMON = 1 AND [DAZ_MONTOMON] IS NULL) OR ([DAZ_MONTOMON] = @Original_DAZ_MONTOMON)) AND ((@IsNull_DAZ_MONEDA = 1 AND [DAZ_MONEDA] IS NULL) OR ([DAZ_MONEDA] = @Original_DAZ_MONEDA)) AND ((@IsNull_DAZ_CONCEPTO = 1 AND [DAZ_CONCEPTO] IS NULL) OR ([DAZ_CONCEPTO] = @Original_DAZ_CONCEPTO)) AND ((@IsNull_DAZ_POSICION = 1 AND [DAZ_POSICION] IS NULL) OR ([DAZ_POSICION] = @Original_DAZ_POSICION)) AND ((@IsNull_DAZ_CAJA = 1 AND [DAZ_CAJA] IS NULL) OR ([DAZ_CAJA] = @Original_DAZ_CAJA)) AND ((@IsNull_DAZ_FECHADOC = 1 AND [DAZ_FECHADOC] IS NULL) OR ([DAZ_FECHADOC] = @Original_DAZ_FECHADOC)) AND ((@IsNull_DAZ_TEXTOPOS = 1 AND [DAZ_TEXTOPOS] IS NULL) OR ([DAZ_TEXTOPOS] = @Original_DAZ_TEXTOPOS)) AND ((@IsNull_DAZ_FECHAz = 1 AND [DAZ_FECHAz] IS NULL) OR ([DAZ_FECHAz] = @Original_DAZ_FECHAz)) AND ((@IsNull_DAZ_MEDIOPAGO = 1 AND [DAZ_MEDIOPAGO] IS NULL) OR ([DAZ_MEDIOPAGO] = @Original_DAZ_MEDIOPAGO)) AND ((@IsNull_DAZ_RETENCION = 1 AND [DAZ_RETENCION] IS NULL) OR ([DAZ_RETENCION] = @Original_DAZ_RETENCION)) AND ((@IsNull_DAZ_FECHADEP = 1 AND [DAZ_FECHADEP] IS NULL) OR ([DAZ_FECHADEP] = @Original_DAZ_FECHADEP)) AND ((@IsNull_DAZ_DIAS = 1 AND [DAZ_DIAS] IS NULL) OR ([DAZ_DIAS] = @Original_DAZ_DIAS)) AND ((@IsNull_DAZ_UNIDAD = 1 AND [DAZ_UNIDAD] IS NULL) OR ([DAZ_UNIDAD] = @Original_DAZ_UNIDAD)) AND ((@IsNull_DAZ_VIA = 1 AND [DAZ_VIA] IS NULL) OR ([DAZ_VIA] = @Original_DAZ_VIA)) AND ((@IsNull_DAZ_CLAVEBANCO = 1 AND [DAZ_CLAVEBANCO] IS NULL) OR ([DAZ_CLAVEBANCO] = @Original_DAZ_CLAVEBANCO)) AND ((@IsNull_DAZ_ESTATUS = 1 AND [DAZ_ESTATUS] IS NULL) OR ([DAZ_ESTATUS] = @Original_DAZ_ESTATUS)) AND ((@IsNull_DAZ_ENVIADOBANCO = 1 AND [DAZ_ENVIADOBANCO] IS NULL) OR ([DAZ_ENVIADOBANCO] = @Original_DAZ_ENVIADOBANCO)) AND ((@IsNull_DAZ_ANULADO = 1 AND [DAZ_ANULADO] IS NULL) OR ([DAZ_ANULADO] = @Original_DAZ_ANULADO)) AND ((@IsNull_DAZ_FECHAANU = 1 AND [DAZ_FECHAANU] IS NULL) OR ([DAZ_FECHAANU] = @Original_DAZ_FECHAANU)) AND ((@IsNull_DAZ_ESTADO = 1 AND [DAZ_ESTADO] IS NULL) OR ([DAZ_ESTADO] = @Original_DAZ_ESTADO)) AND ((@IsNull_PLA_CODIGO = 1 AND [PLA_CODIGO] IS NULL) OR ([PLA_CODIGO] = @Original_PLA_CODIGO)) AND ((@IsNull_DAZ_FECHADIS = 1 AND [DAZ_FECHADIS] IS NULL) OR ([DAZ_FECHADIS] = @Original_DAZ_FECHADIS)) AND ((@IsNull_DAZ_GLOSA = 1 AND [DAZ_GLOSA] IS NULL) OR ([DAZ_GLOSA] = @Original_DAZ_GLOSA)) AND ((@IsNull_DAZ_COLUMNA = 1 AND [DAZ_COLUMNA] IS NULL) OR ([DAZ_COLUMNA] = @Original_DAZ_COLUMNA)));
+SELECT DAZ_CODIGO, DAZ_MANDANTE, DAZ_SOCIEDAD, DAZ_DOCCONT, DAZ_EJERCICIO, DAZ_CLASEDOC, DAZ_CUENTABANCO, DAZ_MONTO, DAZ_MONTOMON, DAZ_MONEDA, DAZ_CONCEPTO, DAZ_POSICION, DAZ_CAJA, DAZ_FECHADOC, DAZ_TEXTOPOS, DAZ_FECHAz, DAZ_MEDIOPAGO, DAZ_RETENCION, DAZ_FECHADEP, DAZ_DIAS, DAZ_UNIDAD, DAZ_VIA, DAZ_CLAVEBANCO, DAZ_ESTATUS, DAZ_ENVIADOBANCO, DAZ_ANULADO, DAZ_FECHAANU, DAZ_ESTADO, PLA_CODIGO, DAZ_FECHADIS, DAZ_GLOSA, DAZ_COLUMNA FROM TESDAZ WHERE (DAZ_CODIGO = @DAZ_CODIGO)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MANDANTE" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_DOCCONT" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_EJERCICIO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CLASEDOC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CUENTABANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MONTO" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DAZ_MONTOMON" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_MONEDA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CONCEPTO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_POSICION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CAJA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADOC" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_TEXTOPOS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHAz" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_MEDIOPAGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_RETENCION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADEP" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_UNIDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_CLAVEBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ESTATUS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ENVIADOBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ANULADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHAANU" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_ESTADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@PLA_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DAZ_FECHADIS" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DAZ_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MANDANTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MANDANTE" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_MANDANTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_SOCIEDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_SOCIEDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_SOCIEDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_DOCCONT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_DOCCONT" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_DOCCONT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_EJERCICIO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_EJERCICIO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="DAZ_EJERCICIO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CLASEDOC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CLASEDOC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLASEDOC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CUENTABANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CUENTABANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CUENTABANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MONTO" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONTOMON" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DAZ_MONTOMON" Precision="18" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DAZ_MONTOMON" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MONEDA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_MONEDA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MONEDA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CONCEPTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CONCEPTO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CONCEPTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_POSICION" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_POSICION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_POSICION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CAJA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CAJA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CAJA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADOC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADOC" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADOC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_TEXTOPOS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_TEXTOPOS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_TEXTOPOS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHAz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHAz" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAz" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_MEDIOPAGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_MEDIOPAGO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_MEDIOPAGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_RETENCION" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_RETENCION" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_RETENCION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADEP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADEP" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADEP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_DAZ_DIAS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_DIAS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_UNIDAD" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_UNIDAD" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_UNIDAD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_VIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_VIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_VIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CLAVEBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_CLAVEBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_CLAVEBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ESTATUS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ESTATUS" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ENVIADOBANCO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ENVIADOBANCO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ENVIADOBANCO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ANULADO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ANULADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ANULADO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHAANU" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHAANU" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHAANU" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_ESTADO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_ESTADO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_ESTADO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PLA_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_PLA_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="PLA_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_FECHADIS" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DAZ_FECHADIS" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DAZ_FECHADIS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_GLOSA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DAZ_GLOSA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DAZ_GLOSA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_DAZ_COLUMNA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_COLUMNA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="DAZ_CODIGO" ColumnName="DAZ_CODIGO" DataSourceName="Wallet.dbo.TESDAZ" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DAZ_CODIGO" DataSetColumn="DAZ_CODIGO" />
+              <Mapping SourceColumn="DAZ_MANDANTE" DataSetColumn="DAZ_MANDANTE" />
+              <Mapping SourceColumn="DAZ_SOCIEDAD" DataSetColumn="DAZ_SOCIEDAD" />
+              <Mapping SourceColumn="DAZ_DOCCONT" DataSetColumn="DAZ_DOCCONT" />
+              <Mapping SourceColumn="DAZ_EJERCICIO" DataSetColumn="DAZ_EJERCICIO" />
+              <Mapping SourceColumn="DAZ_CLASEDOC" DataSetColumn="DAZ_CLASEDOC" />
+              <Mapping SourceColumn="DAZ_CUENTABANCO" DataSetColumn="DAZ_CUENTABANCO" />
+              <Mapping SourceColumn="DAZ_MONTO" DataSetColumn="DAZ_MONTO" />
+              <Mapping SourceColumn="DAZ_MONTOMON" DataSetColumn="DAZ_MONTOMON" />
+              <Mapping SourceColumn="DAZ_MONEDA" DataSetColumn="DAZ_MONEDA" />
+              <Mapping SourceColumn="DAZ_CONCEPTO" DataSetColumn="DAZ_CONCEPTO" />
+              <Mapping SourceColumn="DAZ_POSICION" DataSetColumn="DAZ_POSICION" />
+              <Mapping SourceColumn="DAZ_CAJA" DataSetColumn="DAZ_CAJA" />
+              <Mapping SourceColumn="DAZ_FECHADOC" DataSetColumn="DAZ_FECHADOC" />
+              <Mapping SourceColumn="DAZ_TEXTOPOS" DataSetColumn="DAZ_TEXTOPOS" />
+              <Mapping SourceColumn="DAZ_FECHAz" DataSetColumn="DAZ_FECHAz" />
+              <Mapping SourceColumn="DAZ_MEDIOPAGO" DataSetColumn="DAZ_MEDIOPAGO" />
+              <Mapping SourceColumn="DAZ_RETENCION" DataSetColumn="DAZ_RETENCION" />
+              <Mapping SourceColumn="DAZ_FECHADEP" DataSetColumn="DAZ_FECHADEP" />
+              <Mapping SourceColumn="DAZ_DIAS" DataSetColumn="DAZ_DIAS" />
+              <Mapping SourceColumn="DAZ_UNIDAD" DataSetColumn="DAZ_UNIDAD" />
+              <Mapping SourceColumn="DAZ_VIA" DataSetColumn="DAZ_VIA" />
+              <Mapping SourceColumn="DAZ_CLAVEBANCO" DataSetColumn="DAZ_CLAVEBANCO" />
+              <Mapping SourceColumn="DAZ_ESTATUS" DataSetColumn="DAZ_ESTATUS" />
+              <Mapping SourceColumn="DAZ_ENVIADOBANCO" DataSetColumn="DAZ_ENVIADOBANCO" />
+              <Mapping SourceColumn="DAZ_ANULADO" DataSetColumn="DAZ_ANULADO" />
+              <Mapping SourceColumn="DAZ_FECHAANU" DataSetColumn="DAZ_FECHAANU" />
+              <Mapping SourceColumn="DAZ_ESTADO" DataSetColumn="DAZ_ESTADO" />
+              <Mapping SourceColumn="PLA_CODIGO" DataSetColumn="PLA_CODIGO" />
+              <Mapping SourceColumn="DAZ_FECHADIS" DataSetColumn="DAZ_FECHADIS" />
+              <Mapping SourceColumn="DAZ_GLOSA" DataSetColumn="DAZ_GLOSA" />
+              <Mapping SourceColumn="DAZ_COLUMNA" DataSetColumn="DAZ_COLUMNA" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TESDOPTableAdapter" GeneratorDataComponentClassName="TESDOPTableAdapter" Name="TESDOP" UserDataComponentName="TESDOPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectName="Wallet.dbo.TESDOP" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[TESDOP] WHERE (([DOP_CODIGO] = @Original_DOP_CODIGO) AND ((@IsNull_DPL_CODIGO = 1 AND [DPL_CODIGO] IS NULL) OR ([DPL_CODIGO] = @Original_DPL_CODIGO)) AND ((@IsNull_COL_CODIGO = 1 AND [COL_CODIGO] IS NULL) OR ([COL_CODIGO] = @Original_COL_CODIGO)) AND ((@IsNull_DOP_MONTO = 1 AND [DOP_MONTO] IS NULL) OR ([DOP_MONTO] = @Original_DOP_MONTO)) AND ((@IsNull_DOP_TIPO = 1 AND [DOP_TIPO] IS NULL) OR ([DOP_TIPO] = @Original_DOP_TIPO)) AND ((@IsNull_DOP_NUMERO = 1 AND [DOP_NUMERO] IS NULL) OR ([DOP_NUMERO] = @Original_DOP_NUMERO)) AND ((@IsNull_DOP_GLOSAADIC = 1 AND [DOP_GLOSAADIC] IS NULL) OR ([DOP_GLOSAADIC] = @Original_DOP_GLOSAADIC)) AND ((@IsNull_DOP_AUDITORIA = 1 AND [DOP_AUDITORIA] IS NULL) OR ([DOP_AUDITORIA] = @Original_DOP_AUDITORIA)) AND ((@IsNull_DOP_TIPOREC = 1 AND [DOP_TIPOREC] IS NULL) OR ([DOP_TIPOREC] = @Original_DOP_TIPOREC)) AND ((@IsNull_DAZ_CODIGO = 1 AND [DAZ_CODIGO] IS NULL) OR ([DAZ_CODIGO] = @Original_DAZ_CODIGO)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DOP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DOP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DPL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DPL_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_MONTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DOP_MONTO" Precision="15" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_TIPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_NUMERO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_GLOSAADIC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_GLOSAADIC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_AUDITORIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_TIPOREC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_TIPOREC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[TESDOP] ([DPL_CODIGO], [COL_CODIGO], [DOP_MONTO], [DOP_TIPO], [DOP_NUMERO], [DOP_GLOSAADIC], [DOP_AUDITORIA], [DOP_TIPOREC], [DAZ_CODIGO]) VALUES (@DPL_CODIGO, @COL_CODIGO, @DOP_MONTO, @DOP_TIPO, @DOP_NUMERO, @DOP_GLOSAADIC, @DOP_AUDITORIA, @DOP_TIPOREC, @DAZ_CODIGO);
+SELECT DOP_CODIGO, DPL_CODIGO, COL_CODIGO, DOP_MONTO, DOP_TIPO, DOP_NUMERO, DOP_GLOSAADIC, DOP_AUDITORIA, DOP_TIPOREC, DAZ_CODIGO FROM TESDOP WHERE (DOP_CODIGO = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@DPL_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DOP_MONTO" Precision="15" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_GLOSAADIC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_TIPOREC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DOP_CODIGO, DPL_CODIGO, COL_CODIGO, DOP_MONTO, DOP_TIPO, DOP_NUMERO, DOP_GLOSAADIC, DOP_AUDITORIA, DOP_TIPOREC, DAZ_CODIGO FROM dbo.TESDOP</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[TESDOP] SET [DPL_CODIGO] = @DPL_CODIGO, [COL_CODIGO] = @COL_CODIGO, [DOP_MONTO] = @DOP_MONTO, [DOP_TIPO] = @DOP_TIPO, [DOP_NUMERO] = @DOP_NUMERO, [DOP_GLOSAADIC] = @DOP_GLOSAADIC, [DOP_AUDITORIA] = @DOP_AUDITORIA, [DOP_TIPOREC] = @DOP_TIPOREC, [DAZ_CODIGO] = @DAZ_CODIGO WHERE (([DOP_CODIGO] = @Original_DOP_CODIGO) AND ((@IsNull_DPL_CODIGO = 1 AND [DPL_CODIGO] IS NULL) OR ([DPL_CODIGO] = @Original_DPL_CODIGO)) AND ((@IsNull_COL_CODIGO = 1 AND [COL_CODIGO] IS NULL) OR ([COL_CODIGO] = @Original_COL_CODIGO)) AND ((@IsNull_DOP_MONTO = 1 AND [DOP_MONTO] IS NULL) OR ([DOP_MONTO] = @Original_DOP_MONTO)) AND ((@IsNull_DOP_TIPO = 1 AND [DOP_TIPO] IS NULL) OR ([DOP_TIPO] = @Original_DOP_TIPO)) AND ((@IsNull_DOP_NUMERO = 1 AND [DOP_NUMERO] IS NULL) OR ([DOP_NUMERO] = @Original_DOP_NUMERO)) AND ((@IsNull_DOP_GLOSAADIC = 1 AND [DOP_GLOSAADIC] IS NULL) OR ([DOP_GLOSAADIC] = @Original_DOP_GLOSAADIC)) AND ((@IsNull_DOP_AUDITORIA = 1 AND [DOP_AUDITORIA] IS NULL) OR ([DOP_AUDITORIA] = @Original_DOP_AUDITORIA)) AND ((@IsNull_DOP_TIPOREC = 1 AND [DOP_TIPOREC] IS NULL) OR ([DOP_TIPOREC] = @Original_DOP_TIPOREC)) AND ((@IsNull_DAZ_CODIGO = 1 AND [DAZ_CODIGO] IS NULL) OR ([DAZ_CODIGO] = @Original_DAZ_CODIGO)));
+SELECT DOP_CODIGO, DPL_CODIGO, COL_CODIGO, DOP_MONTO, DOP_TIPO, DOP_NUMERO, DOP_GLOSAADIC, DOP_AUDITORIA, DOP_TIPOREC, DAZ_CODIGO FROM TESDOP WHERE (DOP_CODIGO = @DOP_CODIGO)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@DPL_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@DOP_MONTO" Precision="15" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_GLOSAADIC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@DOP_TIPOREC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DOP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DOP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DPL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DPL_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DPL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_COL_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="COL_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_MONTO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_DOP_MONTO" Precision="15" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="DOP_MONTO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_TIPO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_TIPO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_NUMERO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_NUMERO" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_NUMERO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_GLOSAADIC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_GLOSAADIC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_GLOSAADIC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_AUDITORIA" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_AUDITORIA" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_AUDITORIA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DOP_TIPOREC" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_DOP_TIPOREC" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="DOP_TIPOREC" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DAZ_CODIGO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_DAZ_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="DAZ_CODIGO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="DOP_CODIGO" ColumnName="DOP_CODIGO" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@DOP_CODIGO" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="DOP_CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DOP_CODIGO" DataSetColumn="DOP_CODIGO" />
+              <Mapping SourceColumn="DPL_CODIGO" DataSetColumn="DPL_CODIGO" />
+              <Mapping SourceColumn="COL_CODIGO" DataSetColumn="COL_CODIGO" />
+              <Mapping SourceColumn="DOP_MONTO" DataSetColumn="DOP_MONTO" />
+              <Mapping SourceColumn="DOP_TIPO" DataSetColumn="DOP_TIPO" />
+              <Mapping SourceColumn="DOP_NUMERO" DataSetColumn="DOP_NUMERO" />
+              <Mapping SourceColumn="DOP_GLOSAADIC" DataSetColumn="DOP_GLOSAADIC" />
+              <Mapping SourceColumn="DOP_AUDITORIA" DataSetColumn="DOP_AUDITORIA" />
+              <Mapping SourceColumn="DOP_TIPOREC" DataSetColumn="DOP_TIPOREC" />
+              <Mapping SourceColumn="DAZ_CODIGO" DataSetColumn="DAZ_CODIGO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsWALPPE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsWALPPE" msprop:Generator_UserDSName="dsWALPPE">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cuentas_Planilla" msprop:Generator_TableClassName="Cuentas_PlanillaDataTable" msprop:Generator_TableVarName="tableCuentas_Planilla" msprop:Generator_RowChangedName="Cuentas_PlanillaRowChanged" msprop:Generator_TablePropName="Cuentas_Planilla" msprop:Generator_RowDeletingName="Cuentas_PlanillaRowDeleting" msprop:Generator_RowChangingName="Cuentas_PlanillaRowChanging" msprop:Generator_RowEvHandlerName="Cuentas_PlanillaRowChangeEventHandler" msprop:Generator_RowDeletedName="Cuentas_PlanillaRowDeleted" msprop:Generator_RowClassName="Cuentas_PlanillaRow" msprop:Generator_UserTableName="Cuentas_Planilla" msprop:Generator_RowEvArgName="Cuentas_PlanillaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CTE_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODIGO" msprop:Generator_ColumnPropNameInRow="CTE_CODIGO" msprop:Generator_ColumnPropNameInTable="CTE_CODIGOColumn" msprop:Generator_UserColumnName="CTE_CODIGO" type="xs:int" />
+              <xs:element name="ENT_CODIGO" msprop:Generator_ColumnVarNameInTable="columnENT_CODIGO" msprop:Generator_ColumnPropNameInRow="ENT_CODIGO" msprop:Generator_ColumnPropNameInTable="ENT_CODIGOColumn" msprop:Generator_UserColumnName="ENT_CODIGO" type="xs:long" />
+              <xs:element name="CON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCON_CODIGO" msprop:Generator_ColumnPropNameInRow="CON_CODIGO" msprop:Generator_ColumnPropNameInTable="CON_CODIGOColumn" msprop:Generator_UserColumnName="CON_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="MON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnMON_CODIGO" msprop:Generator_ColumnPropNameInRow="MON_CODIGO" msprop:Generator_ColumnPropNameInTable="MON_CODIGOColumn" msprop:Generator_UserColumnName="MON_CODIGO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_CODIGO" msprop:Generator_ColumnVarNameInTable="columnEMP_CODIGO" msprop:Generator_ColumnPropNameInRow="EMP_CODIGO" msprop:Generator_ColumnPropNameInTable="EMP_CODIGOColumn" msprop:Generator_UserColumnName="EMP_CODIGO" type="xs:long" />
+              <xs:element name="CTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCTE_NUMERO" msprop:Generator_ColumnPropNameInRow="CTE_NUMERO" msprop:Generator_ColumnPropNameInTable="CTE_NUMEROColumn" msprop:Generator_UserColumnName="CTE_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTA" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTA" msprop:Generator_ColumnPropNameInRow="CTE_CUENTA" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAColumn" msprop:Generator_UserColumnName="CTE_CUENTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SIGLA" msprop:Generator_ColumnVarNameInTable="columnCTE_SIGLA" msprop:Generator_ColumnPropNameInRow="CTE_SIGLA" msprop:Generator_ColumnPropNameInTable="CTE_SIGLAColumn" msprop:Generator_UserColumnName="CTE_SIGLA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GRUPO" msprop:Generator_ColumnVarNameInTable="columnCTE_GRUPO" msprop:Generator_ColumnPropNameInRow="CTE_GRUPO" msprop:Generator_ColumnPropNameInTable="CTE_GRUPOColumn" msprop:Generator_UserColumnName="CTE_GRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_TIPO" msprop:Generator_ColumnVarNameInTable="columnCTE_TIPO" msprop:Generator_ColumnPropNameInRow="CTE_TIPO" msprop:Generator_ColumnPropNameInTable="CTE_TIPOColumn" msprop:Generator_UserColumnName="CTE_TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SECUENCIA" msprop:Generator_ColumnVarNameInTable="columnCTE_SECUENCIA" msprop:Generator_ColumnPropNameInRow="CTE_SECUENCIA" msprop:Generator_ColumnPropNameInTable="CTE_SECUENCIAColumn" msprop:Generator_UserColumnName="CTE_SECUENCIA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_COLCHON1" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON1" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON1" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON1Column" msprop:Generator_UserColumnName="CTE_COLCHON1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_COLCHON2" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON2" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON2" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON2Column" msprop:Generator_UserColumnName="CTE_COLCHON2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_PLAZA" msprop:Generator_ColumnVarNameInTable="columnCTE_PLAZA" msprop:Generator_ColumnPropNameInRow="CTE_PLAZA" msprop:Generator_ColumnPropNameInTable="CTE_PLAZAColumn" msprop:Generator_UserColumnName="CTE_PLAZA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_MADRE" msprop:Generator_ColumnVarNameInTable="columnCTE_MADRE" msprop:Generator_ColumnPropNameInRow="CTE_MADRE" msprop:Generator_ColumnPropNameInTable="CTE_MADREColumn" msprop:Generator_UserColumnName="CTE_MADRE" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnCTE_AUDITORIA" msprop:Generator_ColumnPropNameInRow="CTE_AUDITORIA" msprop:Generator_ColumnPropNameInTable="CTE_AUDITORIAColumn" msprop:Generator_UserColumnName="CTE_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SOCIEDAD" msprop:Generator_ColumnVarNameInTable="columnCTE_SOCIEDAD" msprop:Generator_ColumnPropNameInRow="CTE_SOCIEDAD" msprop:Generator_ColumnPropNameInTable="CTE_SOCIEDADColumn" msprop:Generator_UserColumnName="CTE_SOCIEDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODBANCO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODBANCO" msprop:Generator_ColumnPropNameInRow="CTE_CODBANCO" msprop:Generator_ColumnPropNameInTable="CTE_CODBANCOColumn" msprop:Generator_UserColumnName="CTE_CODBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTAID" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTAID" msprop:Generator_ColumnPropNameInRow="CTE_CUENTAID" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAIDColumn" msprop:Generator_UserColumnName="CTE_CUENTAID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GLOSA" msprop:Generator_ColumnVarNameInTable="columnCTE_GLOSA" msprop:Generator_ColumnPropNameInRow="CTE_GLOSA" msprop:Generator_ColumnPropNameInTable="CTE_GLOSAColumn" msprop:Generator_UserColumnName="CTE_GLOSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CONTABLE" msprop:Generator_ColumnVarNameInTable="columnCTE_CONTABLE" msprop:Generator_ColumnPropNameInRow="CTE_CONTABLE" msprop:Generator_ColumnPropNameInTable="CTE_CONTABLEColumn" msprop:Generator_UserColumnName="CTE_CONTABLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_MONEDASAP" msprop:Generator_ColumnVarNameInTable="columnCTE_MONEDASAP" msprop:Generator_ColumnPropNameInRow="CTE_MONEDASAP" msprop:Generator_ColumnPropNameInTable="CTE_MONEDASAPColumn" msprop:Generator_UserColumnName="CTE_MONEDASAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_VIA" msprop:Generator_ColumnVarNameInTable="columnCTE_VIA" msprop:Generator_ColumnPropNameInRow="CTE_VIA" msprop:Generator_ColumnPropNameInTable="CTE_VIAColumn" msprop:Generator_UserColumnName="CTE_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODCTE" msprop:Generator_ColumnVarNameInTable="columnCTE_CODCTE" msprop:Generator_ColumnPropNameInRow="CTE_CODCTE" msprop:Generator_ColumnPropNameInTable="CTE_CODCTEColumn" msprop:Generator_UserColumnName="CTE_CODCTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_RAZON" msprop:Generator_ColumnVarNameInTable="columnENT_RAZON" msprop:Generator_ColumnPropNameInRow="ENT_RAZON" msprop:Generator_ColumnPropNameInTable="ENT_RAZONColumn" msprop:Generator_UserColumnName="ENT_RAZON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_ABREVIATURA" msprop:Generator_ColumnVarNameInTable="columnENT_ABREVIATURA" msprop:Generator_ColumnPropNameInRow="ENT_ABREVIATURA" msprop:Generator_ColumnPropNameInTable="ENT_ABREVIATURAColumn" msprop:Generator_UserColumnName="ENT_ABREVIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="largo" msprop:Generator_ColumnVarNameInTable="columnlargo" msprop:Generator_ColumnPropNameInRow="largo" msprop:Generator_ColumnPropNameInTable="largoColumn" msprop:Generator_UserColumnName="largo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TraeBancosPlanilla" msprop:Generator_TableClassName="TraeBancosPlanillaDataTable" msprop:Generator_TableVarName="tableTraeBancosPlanilla" msprop:Generator_RowChangedName="TraeBancosPlanillaRowChanged" msprop:Generator_TablePropName="TraeBancosPlanilla" msprop:Generator_RowDeletingName="TraeBancosPlanillaRowDeleting" msprop:Generator_RowChangingName="TraeBancosPlanillaRowChanging" msprop:Generator_RowEvHandlerName="TraeBancosPlanillaRowChangeEventHandler" msprop:Generator_RowDeletedName="TraeBancosPlanillaRowDeleted" msprop:Generator_RowClassName="TraeBancosPlanillaRow" msprop:Generator_UserTableName="TraeBancosPlanilla" msprop:Generator_RowEvArgName="TraeBancosPlanillaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CTE_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODIGO" msprop:Generator_ColumnPropNameInRow="CTE_CODIGO" msprop:Generator_ColumnPropNameInTable="CTE_CODIGOColumn" msprop:Generator_UserColumnName="CTE_CODIGO" type="xs:int" />
+              <xs:element name="ENT_CODIGO" msprop:Generator_ColumnVarNameInTable="columnENT_CODIGO" msprop:Generator_ColumnPropNameInRow="ENT_CODIGO" msprop:Generator_ColumnPropNameInTable="ENT_CODIGOColumn" msprop:Generator_UserColumnName="ENT_CODIGO" type="xs:long" />
+              <xs:element name="CON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCON_CODIGO" msprop:Generator_ColumnPropNameInRow="CON_CODIGO" msprop:Generator_ColumnPropNameInTable="CON_CODIGOColumn" msprop:Generator_UserColumnName="CON_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="MON_CODIGO" msprop:Generator_ColumnVarNameInTable="columnMON_CODIGO" msprop:Generator_ColumnPropNameInRow="MON_CODIGO" msprop:Generator_ColumnPropNameInTable="MON_CODIGOColumn" msprop:Generator_UserColumnName="MON_CODIGO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_CODIGO" msprop:Generator_ColumnVarNameInTable="columnEMP_CODIGO" msprop:Generator_ColumnPropNameInRow="EMP_CODIGO" msprop:Generator_ColumnPropNameInTable="EMP_CODIGOColumn" msprop:Generator_UserColumnName="EMP_CODIGO" type="xs:long" />
+              <xs:element name="CTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCTE_NUMERO" msprop:Generator_ColumnPropNameInRow="CTE_NUMERO" msprop:Generator_ColumnPropNameInTable="CTE_NUMEROColumn" msprop:Generator_UserColumnName="CTE_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTA" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTA" msprop:Generator_ColumnPropNameInRow="CTE_CUENTA" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAColumn" msprop:Generator_UserColumnName="CTE_CUENTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SIGLA" msprop:Generator_ColumnVarNameInTable="columnCTE_SIGLA" msprop:Generator_ColumnPropNameInRow="CTE_SIGLA" msprop:Generator_ColumnPropNameInTable="CTE_SIGLAColumn" msprop:Generator_UserColumnName="CTE_SIGLA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GRUPO" msprop:Generator_ColumnVarNameInTable="columnCTE_GRUPO" msprop:Generator_ColumnPropNameInRow="CTE_GRUPO" msprop:Generator_ColumnPropNameInTable="CTE_GRUPOColumn" msprop:Generator_UserColumnName="CTE_GRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_TIPO" msprop:Generator_ColumnVarNameInTable="columnCTE_TIPO" msprop:Generator_ColumnPropNameInRow="CTE_TIPO" msprop:Generator_ColumnPropNameInTable="CTE_TIPOColumn" msprop:Generator_UserColumnName="CTE_TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SECUENCIA" msprop:Generator_ColumnVarNameInTable="columnCTE_SECUENCIA" msprop:Generator_ColumnPropNameInRow="CTE_SECUENCIA" msprop:Generator_ColumnPropNameInTable="CTE_SECUENCIAColumn" msprop:Generator_UserColumnName="CTE_SECUENCIA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_COLCHON1" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON1" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON1" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON1Column" msprop:Generator_UserColumnName="CTE_COLCHON1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_COLCHON2" msprop:Generator_ColumnVarNameInTable="columnCTE_COLCHON2" msprop:Generator_ColumnPropNameInRow="CTE_COLCHON2" msprop:Generator_ColumnPropNameInTable="CTE_COLCHON2Column" msprop:Generator_UserColumnName="CTE_COLCHON2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTE_PLAZA" msprop:Generator_ColumnVarNameInTable="columnCTE_PLAZA" msprop:Generator_ColumnPropNameInRow="CTE_PLAZA" msprop:Generator_ColumnPropNameInTable="CTE_PLAZAColumn" msprop:Generator_UserColumnName="CTE_PLAZA" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_MADRE" msprop:Generator_ColumnVarNameInTable="columnCTE_MADRE" msprop:Generator_ColumnPropNameInRow="CTE_MADRE" msprop:Generator_ColumnPropNameInTable="CTE_MADREColumn" msprop:Generator_UserColumnName="CTE_MADRE" type="xs:int" minOccurs="0" />
+              <xs:element name="CTE_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnCTE_AUDITORIA" msprop:Generator_ColumnPropNameInRow="CTE_AUDITORIA" msprop:Generator_ColumnPropNameInTable="CTE_AUDITORIAColumn" msprop:Generator_UserColumnName="CTE_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SOCIEDAD" msprop:Generator_ColumnVarNameInTable="columnCTE_SOCIEDAD" msprop:Generator_ColumnPropNameInRow="CTE_SOCIEDAD" msprop:Generator_ColumnPropNameInTable="CTE_SOCIEDADColumn" msprop:Generator_UserColumnName="CTE_SOCIEDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODBANCO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODBANCO" msprop:Generator_ColumnPropNameInRow="CTE_CODBANCO" msprop:Generator_ColumnPropNameInTable="CTE_CODBANCOColumn" msprop:Generator_UserColumnName="CTE_CODBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTAID" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTAID" msprop:Generator_ColumnPropNameInRow="CTE_CUENTAID" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAIDColumn" msprop:Generator_UserColumnName="CTE_CUENTAID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_GLOSA" msprop:Generator_ColumnVarNameInTable="columnCTE_GLOSA" msprop:Generator_ColumnPropNameInRow="CTE_GLOSA" msprop:Generator_ColumnPropNameInTable="CTE_GLOSAColumn" msprop:Generator_UserColumnName="CTE_GLOSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CONTABLE" msprop:Generator_ColumnVarNameInTable="columnCTE_CONTABLE" msprop:Generator_ColumnPropNameInRow="CTE_CONTABLE" msprop:Generator_ColumnPropNameInTable="CTE_CONTABLEColumn" msprop:Generator_UserColumnName="CTE_CONTABLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_MONEDASAP" msprop:Generator_ColumnVarNameInTable="columnCTE_MONEDASAP" msprop:Generator_ColumnPropNameInRow="CTE_MONEDASAP" msprop:Generator_ColumnPropNameInTable="CTE_MONEDASAPColumn" msprop:Generator_UserColumnName="CTE_MONEDASAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_VIA" msprop:Generator_ColumnVarNameInTable="columnCTE_VIA" msprop:Generator_ColumnPropNameInRow="CTE_VIA" msprop:Generator_ColumnPropNameInTable="CTE_VIAColumn" msprop:Generator_UserColumnName="CTE_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODCTE" msprop:Generator_ColumnVarNameInTable="columnCTE_CODCTE" msprop:Generator_ColumnPropNameInRow="CTE_CODCTE" msprop:Generator_ColumnPropNameInTable="CTE_CODCTEColumn" msprop:Generator_UserColumnName="CTE_CODCTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TEN_CODIGO" msprop:Generator_ColumnVarNameInTable="columnTEN_CODIGO" msprop:Generator_ColumnPropNameInRow="TEN_CODIGO" msprop:Generator_ColumnPropNameInTable="TEN_CODIGOColumn" msprop:Generator_UserColumnName="TEN_CODIGO" type="xs:int" />
+              <xs:element name="ENT_RAZON" msprop:Generator_ColumnVarNameInTable="columnENT_RAZON" msprop:Generator_ColumnPropNameInRow="ENT_RAZON" msprop:Generator_ColumnPropNameInTable="ENT_RAZONColumn" msprop:Generator_UserColumnName="ENT_RAZON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_ABREVIATURA" msprop:Generator_ColumnVarNameInTable="columnENT_ABREVIATURA" msprop:Generator_ColumnPropNameInRow="ENT_ABREVIATURA" msprop:Generator_ColumnPropNameInTable="ENT_ABREVIATURAColumn" msprop:Generator_UserColumnName="ENT_ABREVIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_RUT" msprop:Generator_ColumnVarNameInTable="columnENT_RUT" msprop:Generator_ColumnPropNameInRow="ENT_RUT" msprop:Generator_ColumnPropNameInTable="ENT_RUTColumn" msprop:Generator_UserColumnName="ENT_RUT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_LIMITE" msprop:Generator_ColumnVarNameInTable="columnENT_LIMITE" msprop:Generator_ColumnPropNameInRow="ENT_LIMITE" msprop:Generator_ColumnPropNameInTable="ENT_LIMITEColumn" msprop:Generator_UserColumnName="ENT_LIMITE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ENT_ESTADO" msprop:Generator_ColumnVarNameInTable="columnENT_ESTADO" msprop:Generator_ColumnPropNameInRow="ENT_ESTADO" msprop:Generator_ColumnPropNameInTable="ENT_ESTADOColumn" msprop:Generator_UserColumnName="ENT_ESTADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_SITIO" msprop:Generator_ColumnVarNameInTable="columnENT_SITIO" msprop:Generator_ColumnPropNameInRow="ENT_SITIO" msprop:Generator_ColumnPropNameInTable="ENT_SITIOColumn" msprop:Generator_UserColumnName="ENT_SITIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnENT_AUDITORIA" msprop:Generator_ColumnPropNameInRow="ENT_AUDITORIA" msprop:Generator_ColumnPropNameInTable="ENT_AUDITORIAColumn" msprop:Generator_UserColumnName="ENT_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_SAP" msprop:Generator_ColumnVarNameInTable="columnENT_SAP" msprop:Generator_ColumnPropNameInRow="ENT_SAP" msprop:Generator_ColumnPropNameInTable="ENT_SAPColumn" msprop:Generator_UserColumnName="ENT_SAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_SECUENCIA1" msprop:Generator_ColumnVarNameInTable="columnCTE_SECUENCIA1" msprop:Generator_ColumnPropNameInRow="CTE_SECUENCIA1" msprop:Generator_ColumnPropNameInTable="CTE_SECUENCIA1Column" msprop:Generator_UserColumnName="CTE_SECUENCIA1" type="xs:int" minOccurs="0" />
+              <xs:element name="ENT_CODIGO1" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnENT_CODIGO1" msprop:Generator_ColumnPropNameInRow="ENT_CODIGO1" msprop:Generator_ColumnPropNameInTable="ENT_CODIGO1Column" msprop:Generator_UserColumnName="ENT_CODIGO1" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PartidasPendientesSAP" msprop:Generator_TableClassName="PartidasPendientesSAPDataTable" msprop:Generator_TableVarName="tablePartidasPendientesSAP" msprop:Generator_RowChangedName="PartidasPendientesSAPRowChanged" msprop:Generator_TablePropName="PartidasPendientesSAP" msprop:Generator_RowDeletingName="PartidasPendientesSAPRowDeleting" msprop:Generator_RowChangingName="PartidasPendientesSAPRowChanging" msprop:Generator_RowEvHandlerName="PartidasPendientesSAPRowChangeEventHandler" msprop:Generator_RowDeletedName="PartidasPendientesSAPRowDeleted" msprop:Generator_RowClassName="PartidasPendientesSAPRow" msprop:Generator_UserTableName="PartidasPendientesSAP" msprop:Generator_RowEvArgName="PartidasPendientesSAPRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DAZ_CODIGO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnDAZ_CODIGO" msprop:Generator_ColumnPropNameInRow="DAZ_CODIGO" msprop:Generator_ColumnPropNameInTable="DAZ_CODIGOColumn" msprop:Generator_UserColumnName="DAZ_CODIGO" type="xs:long" />
+              <xs:element name="DAZ_MANDANTE" msprop:Generator_ColumnVarNameInTable="columnDAZ_MANDANTE" msprop:Generator_ColumnPropNameInRow="DAZ_MANDANTE" msprop:Generator_ColumnPropNameInTable="DAZ_MANDANTEColumn" msprop:Generator_UserColumnName="DAZ_MANDANTE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DAZ_SOCIEDAD" msprop:Generator_ColumnVarNameInTable="columnDAZ_SOCIEDAD" msprop:Generator_ColumnPropNameInRow="DAZ_SOCIEDAD" msprop:Generator_ColumnPropNameInTable="DAZ_SOCIEDADColumn" msprop:Generator_UserColumnName="DAZ_SOCIEDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_DOCCONT" msprop:Generator_ColumnVarNameInTable="columnDAZ_DOCCONT" msprop:Generator_ColumnPropNameInRow="DAZ_DOCCONT" msprop:Generator_ColumnPropNameInTable="DAZ_DOCCONTColumn" msprop:Generator_UserColumnName="DAZ_DOCCONT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_EJERCICIO" msprop:Generator_ColumnVarNameInTable="columnDAZ_EJERCICIO" msprop:Generator_ColumnPropNameInRow="DAZ_EJERCICIO" msprop:Generator_ColumnPropNameInTable="DAZ_EJERCICIOColumn" msprop:Generator_UserColumnName="DAZ_EJERCICIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DAZ_CLASEDOC" msprop:Generator_ColumnVarNameInTable="columnDAZ_CLASEDOC" msprop:Generator_ColumnPropNameInRow="DAZ_CLASEDOC" msprop:Generator_ColumnPropNameInTable="DAZ_CLASEDOCColumn" msprop:Generator_UserColumnName="DAZ_CLASEDOC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_CUENTABANCO" msprop:Generator_ColumnVarNameInTable="columnDAZ_CUENTABANCO" msprop:Generator_ColumnPropNameInRow="DAZ_CUENTABANCO" msprop:Generator_ColumnPropNameInTable="DAZ_CUENTABANCOColumn" msprop:Generator_UserColumnName="DAZ_CUENTABANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_MONTO" msprop:Generator_ColumnVarNameInTable="columnDAZ_MONTO" msprop:Generator_ColumnPropNameInRow="DAZ_MONTO" msprop:Generator_ColumnPropNameInTable="DAZ_MONTOColumn" msprop:Generator_UserColumnName="DAZ_MONTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DAZ_MONTOMON" msprop:Generator_ColumnVarNameInTable="columnDAZ_MONTOMON" msprop:Generator_ColumnPropNameInRow="DAZ_MONTOMON" msprop:Generator_ColumnPropNameInTable="DAZ_MONTOMONColumn" msprop:Generator_UserColumnName="DAZ_MONTOMON" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DAZ_MONEDA" msprop:Generator_ColumnVarNameInTable="columnDAZ_MONEDA" msprop:Generator_ColumnPropNameInRow="DAZ_MONEDA" msprop:Generator_ColumnPropNameInTable="DAZ_MONEDAColumn" msprop:Generator_UserColumnName="DAZ_MONEDA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_CONCEPTO" msprop:Generator_ColumnVarNameInTable="columnDAZ_CONCEPTO" msprop:Generator_ColumnPropNameInRow="DAZ_CONCEPTO" msprop:Generator_ColumnPropNameInTable="DAZ_CONCEPTOColumn" msprop:Generator_UserColumnName="DAZ_CONCEPTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_POSICION" msprop:Generator_ColumnVarNameInTable="columnDAZ_POSICION" msprop:Generator_ColumnPropNameInRow="DAZ_POSICION" msprop:Generator_ColumnPropNameInTable="DAZ_POSICIONColumn" msprop:Generator_UserColumnName="DAZ_POSICION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_CAJA" msprop:Generator_ColumnVarNameInTable="columnDAZ_CAJA" msprop:Generator_ColumnPropNameInRow="DAZ_CAJA" msprop:Generator_ColumnPropNameInTable="DAZ_CAJAColumn" msprop:Generator_UserColumnName="DAZ_CAJA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_FECHADOC" msprop:Generator_ColumnVarNameInTable="columnDAZ_FECHADOC" msprop:Generator_ColumnPropNameInRow="DAZ_FECHADOC" msprop:Generator_ColumnPropNameInTable="DAZ_FECHADOCColumn" msprop:Generator_UserColumnName="DAZ_FECHADOC" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DAZ_TEXTOPOS" msprop:Generator_ColumnVarNameInTable="columnDAZ_TEXTOPOS" msprop:Generator_ColumnPropNameInRow="DAZ_TEXTOPOS" msprop:Generator_ColumnPropNameInTable="DAZ_TEXTOPOSColumn" msprop:Generator_UserColumnName="DAZ_TEXTOPOS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_FECHAz" msprop:Generator_ColumnVarNameInTable="columnDAZ_FECHAz" msprop:Generator_ColumnPropNameInRow="DAZ_FECHAz" msprop:Generator_ColumnPropNameInTable="DAZ_FECHAzColumn" msprop:Generator_UserColumnName="DAZ_FECHAz" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DAZ_MEDIOPAGO" msprop:Generator_ColumnVarNameInTable="columnDAZ_MEDIOPAGO" msprop:Generator_ColumnPropNameInRow="DAZ_MEDIOPAGO" msprop:Generator_ColumnPropNameInTable="DAZ_MEDIOPAGOColumn" msprop:Generator_UserColumnName="DAZ_MEDIOPAGO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_RETENCION" msprop:Generator_ColumnVarNameInTable="columnDAZ_RETENCION" msprop:Generator_ColumnPropNameInRow="DAZ_RETENCION" msprop:Generator_ColumnPropNameInTable="DAZ_RETENCIONColumn" msprop:Generator_UserColumnName="DAZ_RETENCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_FECHADEP" msprop:Generator_ColumnVarNameInTable="columnDAZ_FECHADEP" msprop:Generator_ColumnPropNameInRow="DAZ_FECHADEP" msprop:Generator_ColumnPropNameInTable="DAZ_FECHADEPColumn" msprop:Generator_UserColumnName="DAZ_FECHADEP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DAZ_DIAS" msprop:Generator_ColumnVarNameInTable="columnDAZ_DIAS" msprop:Generator_ColumnPropNameInRow="DAZ_DIAS" msprop:Generator_ColumnPropNameInTable="DAZ_DIASColumn" msprop:Generator_UserColumnName="DAZ_DIAS" type="xs:int" minOccurs="0" />
+              <xs:element name="DAZ_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnDAZ_UNIDAD" msprop:Generator_ColumnPropNameInRow="DAZ_UNIDAD" msprop:Generator_ColumnPropNameInTable="DAZ_UNIDADColumn" msprop:Generator_UserColumnName="DAZ_UNIDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_VIA" msprop:Generator_ColumnVarNameInTable="columnDAZ_VIA" msprop:Generator_ColumnPropNameInRow="DAZ_VIA" msprop:Generator_ColumnPropNameInTable="DAZ_VIAColumn" msprop:Generator_UserColumnName="DAZ_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_CLAVEBANCO" msprop:Generator_ColumnVarNameInTable="columnDAZ_CLAVEBANCO" msprop:Generator_ColumnPropNameInRow="DAZ_CLAVEBANCO" msprop:Generator_ColumnPropNameInTable="DAZ_CLAVEBANCOColumn" msprop:Generator_UserColumnName="DAZ_CLAVEBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_ESTATUS" msprop:Generator_ColumnVarNameInTable="columnDAZ_ESTATUS" msprop:Generator_ColumnPropNameInRow="DAZ_ESTATUS" msprop:Generator_ColumnPropNameInTable="DAZ_ESTATUSColumn" msprop:Generator_UserColumnName="DAZ_ESTATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_ENVIADOBANCO" msprop:Generator_ColumnVarNameInTable="columnDAZ_ENVIADOBANCO" msprop:Generator_ColumnPropNameInRow="DAZ_ENVIADOBANCO" msprop:Generator_ColumnPropNameInTable="DAZ_ENVIADOBANCOColumn" msprop:Generator_UserColumnName="DAZ_ENVIADOBANCO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_ANULADO" msprop:Generator_ColumnVarNameInTable="columnDAZ_ANULADO" msprop:Generator_ColumnPropNameInRow="DAZ_ANULADO" msprop:Generator_ColumnPropNameInTable="DAZ_ANULADOColumn" msprop:Generator_UserColumnName="DAZ_ANULADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_FECHAANU" msprop:Generator_ColumnVarNameInTable="columnDAZ_FECHAANU" msprop:Generator_ColumnPropNameInRow="DAZ_FECHAANU" msprop:Generator_ColumnPropNameInTable="DAZ_FECHAANUColumn" msprop:Generator_UserColumnName="DAZ_FECHAANU" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DAZ_ESTADO" msprop:Generator_ColumnVarNameInTable="columnDAZ_ESTADO" msprop:Generator_ColumnPropNameInRow="DAZ_ESTADO" msprop:Generator_ColumnPropNameInTable="DAZ_ESTADOColumn" msprop:Generator_UserColumnName="DAZ_ESTADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PLA_CODIGO" msprop:Generator_ColumnVarNameInTable="columnPLA_CODIGO" msprop:Generator_ColumnPropNameInRow="PLA_CODIGO" msprop:Generator_ColumnPropNameInTable="PLA_CODIGOColumn" msprop:Generator_UserColumnName="PLA_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="DAZ_FECHADIS" msprop:Generator_ColumnVarNameInTable="columnDAZ_FECHADIS" msprop:Generator_ColumnPropNameInRow="DAZ_FECHADIS" msprop:Generator_ColumnPropNameInTable="DAZ_FECHADISColumn" msprop:Generator_UserColumnName="DAZ_FECHADIS" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DAZ_GLOSA" msprop:Generator_ColumnVarNameInTable="columnDAZ_GLOSA" msprop:Generator_ColumnPropNameInRow="DAZ_GLOSA" msprop:Generator_ColumnPropNameInTable="DAZ_GLOSAColumn" msprop:Generator_UserColumnName="DAZ_GLOSA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_COLUMNA" msprop:Generator_ColumnVarNameInTable="columnDAZ_COLUMNA" msprop:Generator_ColumnPropNameInRow="DAZ_COLUMNA" msprop:Generator_ColumnPropNameInTable="DAZ_COLUMNAColumn" msprop:Generator_UserColumnName="DAZ_COLUMNA" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESDOP" msprop:Generator_TableClassName="TESDOPDataTable" msprop:Generator_TableVarName="tableTESDOP" msprop:Generator_TablePropName="TESDOP" msprop:Generator_RowDeletingName="TESDOPRowDeleting" msprop:Generator_RowChangingName="TESDOPRowChanging" msprop:Generator_RowEvHandlerName="TESDOPRowChangeEventHandler" msprop:Generator_RowDeletedName="TESDOPRowDeleted" msprop:Generator_UserTableName="TESDOP" msprop:Generator_RowChangedName="TESDOPRowChanged" msprop:Generator_RowEvArgName="TESDOPRowChangeEvent" msprop:Generator_RowClassName="TESDOPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOP_CODIGO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnDOP_CODIGO" msprop:Generator_ColumnPropNameInRow="DOP_CODIGO" msprop:Generator_ColumnPropNameInTable="DOP_CODIGOColumn" msprop:Generator_UserColumnName="DOP_CODIGO" type="xs:long" />
+              <xs:element name="DPL_CODIGO" msprop:Generator_ColumnVarNameInTable="columnDPL_CODIGO" msprop:Generator_ColumnPropNameInRow="DPL_CODIGO" msprop:Generator_ColumnPropNameInTable="DPL_CODIGOColumn" msprop:Generator_UserColumnName="DPL_CODIGO" type="xs:long" minOccurs="0" />
+              <xs:element name="COL_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCOL_CODIGO" msprop:Generator_ColumnPropNameInRow="COL_CODIGO" msprop:Generator_ColumnPropNameInTable="COL_CODIGOColumn" msprop:Generator_UserColumnName="COL_CODIGO" type="xs:int" minOccurs="0" />
+              <xs:element name="DOP_MONTO" msprop:Generator_ColumnVarNameInTable="columnDOP_MONTO" msprop:Generator_ColumnPropNameInRow="DOP_MONTO" msprop:Generator_ColumnPropNameInTable="DOP_MONTOColumn" msprop:Generator_UserColumnName="DOP_MONTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOP_TIPO" msprop:Generator_ColumnVarNameInTable="columnDOP_TIPO" msprop:Generator_ColumnPropNameInRow="DOP_TIPO" msprop:Generator_ColumnPropNameInTable="DOP_TIPOColumn" msprop:Generator_UserColumnName="DOP_TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOP_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDOP_NUMERO" msprop:Generator_ColumnPropNameInRow="DOP_NUMERO" msprop:Generator_ColumnPropNameInTable="DOP_NUMEROColumn" msprop:Generator_UserColumnName="DOP_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOP_GLOSAADIC" msprop:Generator_ColumnVarNameInTable="columnDOP_GLOSAADIC" msprop:Generator_ColumnPropNameInRow="DOP_GLOSAADIC" msprop:Generator_ColumnPropNameInTable="DOP_GLOSAADICColumn" msprop:Generator_UserColumnName="DOP_GLOSAADIC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOP_AUDITORIA" msprop:Generator_ColumnVarNameInTable="columnDOP_AUDITORIA" msprop:Generator_ColumnPropNameInRow="DOP_AUDITORIA" msprop:Generator_ColumnPropNameInTable="DOP_AUDITORIAColumn" msprop:Generator_UserColumnName="DOP_AUDITORIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOP_TIPOREC" msprop:Generator_ColumnVarNameInTable="columnDOP_TIPOREC" msprop:Generator_ColumnPropNameInRow="DOP_TIPOREC" msprop:Generator_ColumnPropNameInTable="DOP_TIPORECColumn" msprop:Generator_UserColumnName="DOP_TIPOREC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DAZ_CODIGO" msprop:Generator_ColumnVarNameInTable="columnDAZ_CODIGO" msprop:Generator_ColumnPropNameInRow="DAZ_CODIGO" msprop:Generator_ColumnPropNameInTable="DAZ_CODIGOColumn" msprop:Generator_UserColumnName="DAZ_CODIGO" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Cuentas_Planilla" />
+      <xs:field xpath="mstns:CTE_CODIGO" />
+    </xs:unique>
+    <xs:unique name="TraeBancosPlanilla_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TraeBancosPlanilla" />
+      <xs:field xpath="mstns:CTE_CODIGO" />
+      <xs:field xpath="mstns:ENT_CODIGO1" />
+    </xs:unique>
+    <xs:unique name="PartidasPendientesSAP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PartidasPendientesSAP" />
+      <xs:field xpath="mstns:DAZ_CODIGO" />
+    </xs:unique>
+    <xs:unique name="TESDOP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TESDOP" />
+      <xs:field xpath="mstns:DOP_CODIGO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

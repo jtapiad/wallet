@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsWALTRB" targetNamespace="http://tempuri.org/dsWALTRB.xsd" xmlns:mstns="http://tempuri.org/dsWALTRB.xsd" xmlns="http://tempuri.org/dsWALTRB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="WalletConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WalletConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wallet.My.MySettings.GlobalReference.Default.WalletConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Cuentas_DestinoTableAdapter" GeneratorDataComponentClassName="Cuentas_DestinoTableAdapter" Name="Cuentas_Destino" UserDataComponentName="Cuentas_DestinoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WalletConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TESCTE.CTE_CODIGO, TESENT.ENT_ABREVIATURA, TESCTE.CTE_CUENTA, TESENT.ENT_RAZON, TESCTE.CTE_NUMERO, TESENT.ENT_RAZON + ' (' + RTRIM(TESCTE.CTE_NUMERO) + ')' AS largo, 
+                         TESENT.ENT_RUT + '|' + TESCTE.CTE_CUENTA AS Clave
+FROM            TESCTE INNER JOIN
+                         TESENT ON TESCTE.ENT_CODIGO = TESENT.ENT_CODIGO
+WHERE        (TESCTE.CTE_SECUENCIA &gt;= 100) AND (TESCTE.CTE_SECUENCIA &lt;= 999)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="largo" DataSetColumn="largo" />
+              <Mapping SourceColumn="CTE_CODIGO" DataSetColumn="CTE_CODIGO" />
+              <Mapping SourceColumn="ENT_ABREVIATURA" DataSetColumn="ENT_ABREVIATURA" />
+              <Mapping SourceColumn="CTE_CUENTA" DataSetColumn="CTE_CUENTA" />
+              <Mapping SourceColumn="ENT_RAZON" DataSetColumn="ENT_RAZON" />
+              <Mapping SourceColumn="CTE_NUMERO" DataSetColumn="CTE_NUMERO" />
+              <Mapping SourceColumn="Clave" DataSetColumn="Clave" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsWALTRB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsWALTRB" msprop:Generator_UserDSName="dsWALTRB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cuentas_Destino" msprop:Generator_TableClassName="Cuentas_DestinoDataTable" msprop:Generator_TableVarName="tableCuentas_Destino" msprop:Generator_TablePropName="Cuentas_Destino" msprop:Generator_RowDeletingName="Cuentas_DestinoRowDeleting" msprop:Generator_RowChangingName="Cuentas_DestinoRowChanging" msprop:Generator_RowEvHandlerName="Cuentas_DestinoRowChangeEventHandler" msprop:Generator_RowDeletedName="Cuentas_DestinoRowDeleted" msprop:Generator_UserTableName="Cuentas_Destino" msprop:Generator_RowChangedName="Cuentas_DestinoRowChanged" msprop:Generator_RowEvArgName="Cuentas_DestinoRowChangeEvent" msprop:Generator_RowClassName="Cuentas_DestinoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="largo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlargo" msprop:Generator_ColumnPropNameInRow="largo" msprop:Generator_ColumnPropNameInTable="largoColumn" msprop:Generator_UserColumnName="largo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="67" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CODIGO" msprop:Generator_ColumnVarNameInTable="columnCTE_CODIGO" msprop:Generator_ColumnPropNameInRow="CTE_CODIGO" msprop:Generator_ColumnPropNameInTable="CTE_CODIGOColumn" msprop:Generator_UserColumnName="CTE_CODIGO" type="xs:long" />
+              <xs:element name="ENT_ABREVIATURA" msprop:Generator_ColumnVarNameInTable="columnENT_ABREVIATURA" msprop:Generator_ColumnPropNameInRow="ENT_ABREVIATURA" msprop:Generator_ColumnPropNameInTable="ENT_ABREVIATURAColumn" msprop:Generator_UserColumnName="ENT_ABREVIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_CUENTA" msprop:Generator_ColumnVarNameInTable="columnCTE_CUENTA" msprop:Generator_ColumnPropNameInRow="CTE_CUENTA" msprop:Generator_ColumnPropNameInTable="CTE_CUENTAColumn" msprop:Generator_UserColumnName="CTE_CUENTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENT_RAZON" msprop:Generator_ColumnVarNameInTable="columnENT_RAZON" msprop:Generator_ColumnPropNameInRow="ENT_RAZON" msprop:Generator_ColumnPropNameInTable="ENT_RAZONColumn" msprop:Generator_UserColumnName="ENT_RAZON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCTE_NUMERO" msprop:Generator_ColumnPropNameInRow="CTE_NUMERO" msprop:Generator_ColumnPropNameInTable="CTE_NUMEROColumn" msprop:Generator_UserColumnName="CTE_NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Clave" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnClave" msprop:Generator_ColumnPropNameInRow="Clave" msprop:Generator_ColumnPropNameInTable="ClaveColumn" msprop:Generator_UserColumnName="Clave" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Cuentas_Destino" />
+      <xs:field xpath="mstns:CTE_CODIGO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
