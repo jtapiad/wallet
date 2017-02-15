@@ -1,0 +1,838 @@
+C:\Users\Claudio\AppData\Local\Temporary Projects\Wallet\bin\Debug\Wallet.exe.config
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Interop.SAPBAPIControlLib.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGMEN01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU05.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALBAN00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL02.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCBE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC04.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC02.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC03.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC10.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC11.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT02.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDET00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDET01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDEV01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDIF00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALELE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALENT01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALFER00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALGLO00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALGMO00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALINF00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALINV00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALIRE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS99.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALPER04.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALPOD00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALPPE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRDE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALREC01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRED00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRED01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRES00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRES01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRID00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALRSM00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP02.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP03.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP04.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP05.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP06.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALTEN00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALTFD00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALTII00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALTRB00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALTREC00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGACE.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER01.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU03.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU04.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALBEN00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALCUS00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALEMP00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALENT00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALEST00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALFON00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALMDE00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALMMO00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALPLA00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALREP00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.frmWALxxx00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.LOGIN.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.MDIPrincipal.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.Resources.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.vbproj.GenerateResource.Cache
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.rpt
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.vb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Wallet.exe.config
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Wallet.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Wallet.pdb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Wallet.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Microsoft.Vsa.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Diagram.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.GridHelperClasses.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\stdole.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Diagram.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.GridHelperClasses.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.XmlSerializers.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\bin\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.pdb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\Wallet\obj\Debug\Wallet.vbprojResolveAssemblyReference.cache
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe.config
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.exe
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.xml
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.pdb
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbprojResolveAssemblyReference.cache
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGMEN01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU05.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBAN00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL02.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCBE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC04.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC02.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC03.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC10.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC11.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT02.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDEV01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDIF00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALELE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFER00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGLO00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGMO00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINF00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINV00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALIRE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS99.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPER04.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPOD00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPPE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRDE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREC01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRID00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRSM00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP02.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP03.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP04.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP05.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP06.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTEN00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTFD00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTII00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTRB00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTREC00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGACE.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER01.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU03.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU04.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBEN00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUS00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEMP00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEST00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFON00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMDE00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMMO00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPLA00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREP00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALxxx00.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.LOGIN.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.MDIPrincipal.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.Resources.resources
+H:\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe.config
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPBAPIControlLib.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\stdole.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Diagram.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridHelperClasses.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.XmlSerializers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGMEN01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU05.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBAN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCBE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC10.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC11.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDEV01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDIF00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALELE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFER00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGLO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGMO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINF00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINV00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALIRE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS99.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPER04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPOD00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPPE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRDE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREC01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRID00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRSM00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP05.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP06.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTEN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTFD00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTII00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTRB00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTREC00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGACE.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBEN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUS00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEMP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEST00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFON00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMDE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMMO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPLA00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALxxx00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.LOGIN.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.MDIPrincipal.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.Resources.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe.config
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPBAPIControlLib.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.rpt
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRsm.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCtaCte00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptDetalles99.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvBan.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvFon.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvPes.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptExtInvRes.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFeriados00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptGrafico01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptInstrumentos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPlanilla00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptCustodias00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEmpresas00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEntidades00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptEstados00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptPOPBOL02.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecaudacion01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptRecDisponible00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumen00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptResumenIni01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasBancos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTasasFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTESFON01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposEntidades00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposFondos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptTiposInstrumentos00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptUsuarios00.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC01.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Reportes\rptWALREC02.vb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\stdole.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Diagram.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridHelperClasses.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grouping.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.HTMLUI.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Pdf.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Schedule.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Scripting.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.GridConverter.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.PivotAnalysis.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.MIME.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Linq.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Grouping.Windows.XmlSerializers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGMEN01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU05.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBAN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCBE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC10.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC11.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDET01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDEV01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDIF00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALELE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFER00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGLO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALGMO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINF00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALINV00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALIRE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS99.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPER04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPOD00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPPE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRDE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREC01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRED01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRES01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRID00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALRSM00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP02.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP05.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP06.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTEN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTFD00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTII00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTRB00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALTREC00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGACE.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER01.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU03.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU04.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALBEN00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALCUS00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEMP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALENT00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALEST00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALFON00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMDE00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALMMO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALPLA00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALREP00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.frmWALxxx00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.LOGIN.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.MDIPrincipal.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.Resources.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\bin\Debug\Wallet.exe.config
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPBAPIControlLib.dll
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.exe
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.xml
+C:\Users\Bprog\Desktop\COPEC\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog - copia\Fuentes_2016-11-24\FuentesWallet1303\Wallet\Wallet\obj\Debug\Wallet.pdb
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Interop.SAPBAPIControlLib.dll
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Interop.SAPLogonCtrl.dll
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\AxInterop.SAPLogonCtrl.dll
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.vbproj.ResolveComReference.cache
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGMEN01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU05.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALBAN00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALBOL02.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCBE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC04.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC02.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC03.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC10.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCLC11.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCOT02.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCUA01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDET00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDET01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDEV01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDIF00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALDRE01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALELE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALENT01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALFER00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALGLO00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALGMO00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALINF00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALINV00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALIRE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALLIS99.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALPER04.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALPOD00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALPPE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRDE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALREC01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRED00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRED01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRES00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRES01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRID00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALRSM00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP02.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP03.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP04.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP05.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALSAP06.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALTEN00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALTFD00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALTII00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALTRB00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALTREC00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGACE.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGPER01.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU03.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmSEGUSU04.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALBEN00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCTE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALCUS00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALEMP00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALENT00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALEST00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALFON00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALMDE00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALMMO00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALPLA00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALREP00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.frmWALxxx00.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.LOGIN.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.MDIPrincipal.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.Resources.resources
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.vbproj.GenerateResource.Cache
+C:\Users\json\Desktop\Wallet\Wallet\Wallet\obj\Debug\Wallet.xml

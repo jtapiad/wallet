@@ -1,0 +1,6199 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Wallet
+</name>
+</assembly>
+<members>
+<member name="T:Wallet.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources._Exit">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Accept">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Bar_chart">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Best">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Calendar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Card_file">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Cash_register">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Cheque">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Coins">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Connect">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Database">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Delete">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Dollar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Edit">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Excel">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.FACE01">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Gear">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Handshake">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Handshake1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.IconoWallet">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.List">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.logo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Logo_02_Logo_Copec_Solo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Logo_Wallet">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Logo_Wallet_JPG">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.LogSAP">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Microsoft">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Microsoft_Excel_icon_24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Money">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.No">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Numbered_list">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.OK">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Pelota_Wallet">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Pensador">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Piggy">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Piggy_bank">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Print">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Print_preview">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Properties">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Refresh">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Refresh1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Report">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Save_as">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Search">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Search1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Statistics">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Text">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Tick">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Totem_Copec">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wallet.My.Resources.Resources.Ubicacion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMEN">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMEN._SEGMEN_MensajeAleatorioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMEN._SEGMEN_MensajeAleatorioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMEN._SEGMEN_MensajeAleatorioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMENTableAdapters.SEGMEN_MensajeAleatorioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMENTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsSEGMENTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsSEGMEN,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGMENTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsSEGMEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGMENTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsSEGMEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGMENTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsSEGMENTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsSEGMEN)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMENTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsSEGMENTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPC1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.Valida_OpcionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER._SEGOPC_LeeOpcionesPadreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERDatagridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.USUCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPC1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.Valida_OpcionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER._SEGOPC_LeeOpcionesPadreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERDatagridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.USUCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGOPC1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.Valida_OpcionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER._SEGOPC_LeeOpcionesPadreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.SEGPERDatagridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPER.USUCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGOPPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGOPCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGOPC1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.Valida_OpcionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGOPC_LeeOpcionesPadreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.SEGPERDatagridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.USUCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsSEGPERTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsSEGPER,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGPERTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsSEGPER,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGPERTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsSEGPER,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGPERTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsSEGPERTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsSEGPER)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsSEGPERTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGPERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU._SEGUSU_LeeContraseñaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUExcelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.UsuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGPERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU._SEGUSU_LeeContraseñaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUExcelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.UsuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGPERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU._SEGUSU_LeeContraseñaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUExcelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.SEGUSUDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSU.UsuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.SEGPERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.SEGUSUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.SEGUSU_LeeContraseñaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.SEGUSUExcelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.SEGUSUDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.UsuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsSEGUSU,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsSEGUSU,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsSEGUSU,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsSEGUSU)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsSEGUSUTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBE2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBE2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBE2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALBEN.TESBENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.TESBE2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.TESBENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALBENTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALBEN,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALBENTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALBEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALBENTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALBEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALBENTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALBENTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALBEN)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALBENTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESINFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESINFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESINFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESFONComboDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLC.TESCLCDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESCLCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESFONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESINFTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESFONComboTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESFONComboDetalleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TESCLCDetalleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALCLCTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALCLC,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCLCTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALCLC,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCLCTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALCLC,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCLCTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALCLCTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALCLC)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALCLCTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.FondosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TasasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.PizarraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.HastasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.entidadesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESFERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESCOTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.FondosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TasasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.PizarraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.HastasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.entidadesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESFERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESCOTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.FondosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TasasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.PizarraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.HastasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.entidadesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESFERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOT.TESCOTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.FondosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TasasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.PizarraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.HastasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.entidadesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TESFERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TESCOTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALCOTTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALCOT,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCOTTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALCOT,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCOTTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALCOT,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCOTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALCOTTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALCOT)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALCOTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTECompletoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTECompletoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTECompletoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTE.TESCTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTETableAdapters.TESCTECompletoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTETableAdapters.TESCTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTETableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALCTETableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALCTE,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCTETableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALCTE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCTETableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALCTE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCTETableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALCTETableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALCTE)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTETableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALCTETableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2RescatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2ChequesDevueltosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2OtrosIngresosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeColocacionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraePagosConChequeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeRecaudacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTotalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasNegDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasPosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDPLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCUADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.Actualiza_PlanillaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDOPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESPARDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDAZDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.AjustesManualesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TraeCuadraturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeOtrosCargosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.DiferenciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2RescatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2ChequesDevueltosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2OtrosIngresosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeColocacionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraePagosConChequeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeRecaudacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTotalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasNegRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasPosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDPLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCUARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.Actualiza_PlanillaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDOPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESPARRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDAZRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.AjustesManualesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TraeCuadraturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeOtrosCargosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.DiferenciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2RescatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2ChequesDevueltosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_Trae2OtrosIngresosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeColocacionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraePagosConChequeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeRecaudacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTotalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasNegRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeTransferenciasPosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDPLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCUARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.Actualiza_PlanillaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDOPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESPARRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESDAZRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.AjustesManualesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TESCTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.TraeCuadraturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.OP_TraeOtrosCargosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUA.DiferenciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_Trae2RescatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_Trae2ChequesDevueltosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_Trae2OtrosIngresosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeColocacionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraePagosConChequeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeRecaudacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeTotalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeTransferenciasNegTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeTransferenciasPosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESDPLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESCUATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.Actualiza_PlanillaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESDOPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESPARTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESDAZTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.AjustesManualesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TESCTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TraeCuadraturaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.OP_TraeOtrosCargosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUATableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALCUA,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUATableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALCUA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUATableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALCUA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUATableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUATableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALCUA)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUATableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCLCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCLCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCUSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUS.TESCLCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TESCUSDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TESCUSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TESCLCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALCUS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUSTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALCUS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUSTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALCUS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALCUSTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALCUS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALCUSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALELE">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALELE.TESBENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALELE.TESBENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALELE.TESBENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALELETableAdapters.TESBENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALELETableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALELETableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALELE,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALELETableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALELE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALELETableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALELE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALELETableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALELETableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALELE)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALELETableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALELETableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESPLADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESCTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESPLARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESCTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESEMPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESPLARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMP.TESCTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TESEMPDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TESEMPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TESPLATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TESCTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALEMPTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALEMP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALEMPTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALEMP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALEMPTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALEMP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALEMPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALEMPTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALEMP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALEMPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESTENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.EntidadesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.SUCCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CONCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CTECuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.FONCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CLCCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESTENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.EntidadesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.SUCCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CONCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CTECuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.FONCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CLCCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESTENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.EntidadesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.SUCCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CONCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CTECuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.FONCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENT.CLCCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TESENTDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TESTENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.EntidadesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.SUCCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.CONCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.CTECuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.FONCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.CLCCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALENTTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALENT,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALENTTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALENT,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALENTTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALENT,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALENTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALENTTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALENT)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALENTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTDatagridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.CLCCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTDatagridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.CLCCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.TESESTDatagridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALEST.CLCCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.TESESTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.TESESTDatagridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.CLCCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALESTTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALEST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALESTTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALEST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALESTTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALEST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALESTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALESTTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALEST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALESTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFER1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFER1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFER.TESFER1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFERTableAdapters.TESFERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFERTableAdapters.TESFER1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFERTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALFERTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALFER,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFERTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALFER,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFERTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALFER,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFERTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALFERTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALFER)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFERTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALFERTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONDatagridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESTFDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFON1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CLCCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CUOCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONDatagridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESTFDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFON1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CLCCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CUOCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFONDatagridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESTFDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.TESFON1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CLCCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFON.CUOCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TESFONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TESFONDatagridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TESTFDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TESFON1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.CLCCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.CUOCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALFONTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALFON,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFONTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALFON,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFONTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALFON,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALFONTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALFONTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALFON)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALFONTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESGLODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESCOLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESGLORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESCOLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESGLORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLO.TESCOLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLOTableAdapters.TESGLOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLOTableAdapters.TESCOLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLOTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALGLOTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALGLO,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALGLOTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALGLO,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALGLOTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALGLO,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALGLOTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALGLOTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALGLO)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLOTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALGLOTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESTIIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.InstrumentosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.CLCCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESTIIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.InstrumentosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.CLCCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESTIIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.TESINFDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.InstrumentosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALINF.CLCCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TESTIITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TESINFTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TESINFDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.InstrumentosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.CLCCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALINFTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALINF,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALINFTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALINF,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALINFTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALINF,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALINFTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALINFTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALINF)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALINFTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALMON">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALMON.TESVAMDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALMON.TESVAMRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALMON.TESVAMRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALMONTableAdapters.TESVAMTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALMONTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALMONTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALMON,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALMONTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALMON,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALMONTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALMON,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALMONTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALMONTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALMON)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALMONTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALMONTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPARDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesRECDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.DetallePlanillaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPLADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDPLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_Detalle_OperacionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDOPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_CuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESUPADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESGLODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeTransaccionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESINFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESFONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.RELATION_1924DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCHADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesColDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeColchonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCLCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDCLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeMovimientosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.CuentasUnoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeDetalleMovimientosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCOLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPARRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesRECRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.DetallePlanillaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPLARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDPLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_Detalle_OperacionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDOPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_CuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESUPARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESGLORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeTransaccionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESINFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESFONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.RELATION_1924Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCHARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesColRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeColchonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCLCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDCLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeMovimientosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.CuentasUnoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeDetalleMovimientosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCOLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPARRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesRECRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.DetallePlanillaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESPLARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDPLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_Detalle_OperacionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDOPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.Trae_CuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESUPARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESGLORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeTransaccionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESINFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESFONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.RELATION_1924RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCHARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TotalesColRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeColchonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCLCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESDCLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeMovimientosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.CuentasUnoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TraeDetalleMovimientosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLA.TESCOLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESPARTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TotalesRECTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.DetallePlanillaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESCTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESPLATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESDPLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.Trae_Detalle_OperacionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESDOPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.Trae_CuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESUPATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESGLOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TraeTransaccionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESINFTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESFONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.RELATION_1924TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESCHATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TotalesColTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TraeColchonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESCLCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESDCLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TraeMovimientosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.CuentasUnoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TraeDetalleMovimientosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TESCOLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALPLATableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALPLA,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPLATableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALPLA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPLATableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALPLA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPLATableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALPLATableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALPLA)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALPLATableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.Cuentas_PlanillaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TraeBancosPlanillaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.PartidasPendientesSAPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TESDOPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.Cuentas_PlanillaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TraeBancosPlanillaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.PartidasPendientesSAPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TESDOPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.Cuentas_PlanillaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TraeBancosPlanillaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.PartidasPendientesSAPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPE.TESDOPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.Cuentas_PlanillaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.TraeBancosPlanillaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.PartidasPendientesSAPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.TESDOPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALPPETableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALPPE,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPPETableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALPPE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPPETableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALPPE,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALPPETableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALPPETableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALPPE)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALPPETableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenSaldoIniDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESPLADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Trae_CajasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDAZDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDOPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RecaudaciónDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESREC02DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_WALLETDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_v3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_BANCOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ColocacionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RescatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_RESUMENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Recaudación_DepositadaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenOperacionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.BoletasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenSaldoIniRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESPLARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Trae_CajasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDAZRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDOPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RecaudaciónRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESREC02Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_WALLETRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_v3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_BANCOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ColocacionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RescatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_RESUMENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Recaudación_DepositadaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenOperacionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.BoletasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenSaldoIniRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESPLARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Trae_CajasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDAZRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESDOPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RecaudaciónRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.TESREC02RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_WALLETRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_FONDOS_v3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_BANCOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ColocacionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.RescatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.SP_STOCK_RESUMENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.Recaudación_DepositadaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.ResumenOperacionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREP.BoletasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.ResumenSaldoIniTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TESPLATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.Trae_CajasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TESDAZTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TESDOPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.RecaudaciónTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TESREC02TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.SP_STOCK_FONDOS_WALLETTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.SP_STOCK_FONDOS_v3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.SP_STOCK_BANCOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.ColocacionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.RescatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.SP_STOCK_RESUMENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.Recaudación_DepositadaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.ResumenOperacionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.BoletasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALREPTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALREP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALREPTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALREP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALREPTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALREP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALREPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALREPTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALREP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALREPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESBE2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESMONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESFERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESVIADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESREZDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESDAZDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESCTEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESBE2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESMONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESFERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESVIARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESREZRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESDAZRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESCTERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESBE2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESMONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESFERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESVIARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESREZRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESDAZRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAP.TESCTERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESBE2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESMONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESFERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESVIATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESREZTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESDAZTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TESCTETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALSAPTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALSAP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALSAPTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALSAP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALSAPTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALSAP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALSAPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALSAPTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALSAP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALSAPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.ENTCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.ENTCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.TESTENDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTEN.ENTCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.TESTENTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.TESTENDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.ENTCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALTENTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALTEN,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTENTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALTEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTENTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALTEN,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTENTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALTENTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALTEN)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALTENTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.FONCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.FONCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.TESTFDDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFD.FONCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.TESTFDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.TESTFDDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.FONCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALTFDTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALTFD,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTFDTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALTFD,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTFDTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALTFD,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTFDTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALTFDTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALTFD)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALTFDTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIDataGridDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.INFCuentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIDataGridRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.INFCuentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.TESTIIDataGridRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTII.INFCuentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.TESTIITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.TESTIIDataGridTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.INFCuentaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALTIITableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALTII,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTIITableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALTII,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTIITableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALTII,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTIITableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALTIITableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALTII)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALTIITableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRB.Cuentas_DestinoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRB.Cuentas_DestinoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRB.Cuentas_DestinoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRBTableAdapters.Cuentas_DestinoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wallet.dsWALTRBTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wallet.dsWALTRB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTRBTableAdapters.TableAdapterManager.UpdateInsertedRows(Wallet.dsWALTRB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTRBTableAdapters.TableAdapterManager.UpdateDeletedRows(Wallet.dsWALTRB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wallet.dsWALTRBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wallet.dsWALTRBTableAdapters.TableAdapterManager.UpdateAll(Wallet.dsWALTRB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wallet.dsWALTRBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:Wallet.frmSEGMEN01.frmSEGMEN01_Load(System.Object,System.EventArgs)">
+ <summary>
+ Nombre Programa : frmSEGMEN01
+ Descripción     : Mensajes de Saludo
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudio González Vache
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC04.#ctor">
+ <summary>
+ Al crear el formulario
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC04.frmWALCLC02_Load(System.Object,System.EventArgs)">
+ <summary>
+ En la carga del formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC04.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC04.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.dtpFechaColocacion_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Cambios en el valor del DateTimePicker
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba cambios o agrega registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.RevisaError">
+ <summary>
+ Valida que la inversión no haya quedado en nulo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALCLC04.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.TESCLCBindingSource_CurrentItemChanged(System.Object,System.EventArgs)">
+ <summary>
+ Cambia los datos del lado derecho cuando cambio la selección en la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC04.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Habilita el lado derecho y permite editar
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.#ctor">
+ <summary>
+ Al crear el formulario
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC02.frmWALCLC02_Load(System.Object,System.EventArgs)">
+ <summary>
+ En la carga del formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC02.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.dtpFechaColocacion_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Cambios en el valor del DateTimePicker
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba cambios o agrega registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.RevisaError">
+ <summary>
+ Valida que la inversión no haya quedado en nulo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.TESCLCBindingSource_CurrentItemChanged(System.Object,System.EventArgs)">
+ <summary>
+ Cambia los datos del lado derecho cuando cambio la selección en la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nueva colocación
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC02.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Habilita el lado derecho y permite editar
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC03.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC03.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cierra la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCLC03.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCLC03.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCUA01.GridGroupingControl1_TableControlCellMouseUp(System.Object,Syncfusion.Windows.Forms.Grid.Grouping.GridTableControlCellMouseEventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:Wallet.frmWALFER00.dt">
+ <summary>
+ Nombre Programa : frmWALFER00
+ Descripción     : Mantención de feriados
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFER00.frmWALFER00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga los feriados y luego actualiza
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFER00.CargaFeriados">
+ <summary>
+ Agrega cada uno de los feriados para luego actualizar
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFER00.ToolStripButton1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale del programa
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALGLO00.frmWALGLO00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Nombre Programa : frmWALGLO00
+ Descripción     : Mantención de Glosas y Columnas
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="F:Wallet.frmWALINF00.Accion">
+ <summary>
+ Nombre Programa : frmWALINF00
+ Descripción     : Mantención de Instrumentos Financieros
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALINF00.frmWALINF00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la pantalla inicial con los instrumentos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nuevo instrumento
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un instrumento ya creado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>v
+</member>
+<member name="M:Wallet.frmWALINF00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos del instrumento creado, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.dgvInstrumentos_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Determina el código de instrumento que está seleccionado en el datagrid
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALINF00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALINF00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALINF00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para una adición, en el caso del código, este no se asigna hasta después de presionado el botón Aceptar.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALINF00.RevisaError">
+ <summary>
+ Valida que el campo Instrumento y la abreviatura contenga texto
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:Wallet.frmWALPER04.Accion">
+ <summary>
+ Nombre Programa : frmWALPER04
+ Descripción     : Mantención de Perfiles
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALPER04.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega un nuevo usuario.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALPER04.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un registro ya creado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALPER04.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALPER04.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la edición y deshabilita lado derecho
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALPER04.CargaArbol(System.Int64)">
+ <summary>
+ Carga el árbol con las opciones disponibles para definir el perfil de usuario.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.LimpiaCampos">
+ <summary>
+ Limpia los campos en el caso de que se trate de una segunda pasada.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALPER04.RevisaError">
+ <summary>
+ Valida presencia de campos obligatorios y fechas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALPER04.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALPER04.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALPER04.OPPTreeView_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ Marca o desmarca hijos del nodo chequeado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Wallet.frmWALPER04.MarcaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Marca todos los hijos
+ </summary>
+ <param name="_nodeCollection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.MarcaPadres(System.Windows.Forms.TreeNode)">
+ <summary>
+ Marca todos los Padres
+ </summary>
+ <param name="Nodo">Nodo al cual se le quiere marcar todos sus padres</param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.DesmarcaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Desmarca todos los hijos
+ </summary>
+ <param name="_nodeCollection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.BorraOPP(System.Int64)">
+ <summary>
+ Borra todas las opciones para dejar el campo limpio para las nuevas
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.GrabaOPPPadre(System.Int64)">
+ <summary>
+ Graba los nodos padres
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmWALPER04.GrabaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Graba los nodos hijos
+ </summary>
+ <param name="ColeccionNodos"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:Wallet.frmWALTEN00.Accion">
+ <summary>
+ Nombre Programa : frmWALTEN00
+ Descripción     : Mantención de Tipo de Entidad
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTEN00.frmWALTEN00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la pantalla inicial con todos los tipos de entidades
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nuevo tipo de entidad
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un tipo de entidad ya creado.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la empresa creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTEN00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTEN00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTEN00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para una adición, en el caso del código, este no se asigna hasta después de presionado el botón Aceptar.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTEN00.RevisaError">
+ <summary>
+ Valida que el campo Código contenga texto, que no haya sido usado y que le campo tipo tenga texto
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:Wallet.frmWALTFD00.Accion">
+ <summary>
+ Nombre Programa : frmWALTFD00
+ Descripción     : Mantención Cuentas Corrientes Bancarias
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTFD00.frmWALTFD00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la pantalla inicial con todos los tipos de Fondos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nuevo tipo de fondo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un tipo de entidad ya creado.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la empresa creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTFD00.dgvTiposFondos_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTFD00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTFD00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTFD00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para una adición, en el caso del código, este no se asigna hasta después de presionado el botón Aceptar.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTFD00.RevisaError">
+ <summary>
+ Valida que el campo Código contenga texto, que no haya sido usado y que le campo tipo tenga texto
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:Wallet.frmWALTII00.Accion">
+ <summary>
+ Nombre Programa : frmWALTII00
+ Descripción     : Mantención de Tipos de Instrumentos Financieros
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTII00.frmWALTII00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la pantalla inicial con todos los tipos de instrumentos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nuevo tipo de entidad
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de una empresa ya creada.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la empresa creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.dgvTiposInstituciones_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Determino lo seleccionado en la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALTII00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTII00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTII00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para una adición, en el caso del código, este no se asigna hasta después de presionado el botón Aceptar.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALTII00.RevisaError">
+ <summary>
+ Valida que el campo Código contenga texto, que no haya sido usado y que le campo tipo tenga texto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmSEGPER00.frmSEGPER00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga el formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Abre el formulario para agregar nuevo perfil
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>Entrega el tag sin código y con acción 1</remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnModificar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Abre el formulario de detalle para modificar el perfil existente
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>Entrega el tag con el código seleccionado y con acción 2</remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnFiniquitar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Abre el formulario de detalle para elimiar el perfil existente
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnExcel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exporta los datos a Excel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla de resumen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.btnRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Refresca el listbox con los perfiles disponibles
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.lstUsuarios_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ Al hacer el doble clic en el listado de perfiles disponibles, abre el seleccionado para editarlo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.lstPerfiles_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Dependiendo de la tecla que se presione en el listado de perfiles disponibles, crea uno nuevo o abre la pantalla de detalle para eliminar el seleccionado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.ExportaDatosExcel">
+ <summary>
+ Contiene todo lo necesario para hacer el reporte de Excel
+ </summary>
+ <remarks>Hace la exportación a Excel desde un DataTable
+  Llama a GuardaFoto para sacar de los recursos los logos y luego BorraFoto 
+ para borrar los logos y así impedir que los modifiquen o alteren</remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.GuardarFoto">
+ <summary>
+ Crea la foto que se usará para el título del reporte
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER00.EliminarFoto">
+ <summary>
+ Borra la foto creada para el título del reporte
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.frmSEGPER01_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga el formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>Dependiendo de la acción que venga en la tag, determino como se verá la pantalla</remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.CargaArbol">
+ <summary>
+ Carga el árbol con las opciones disponibles para definir el perfil de usuario.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.OPPTreeView_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ Marca o desmarca hijos del nodo chequeado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Wallet.frmSEGPER01.MarcaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Marca todos los hijos
+ </summary>
+ <param name="_nodeCollection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.MarcaPadres(System.Windows.Forms.TreeNode)">
+ <summary>
+ Marca todos los Padres
+ </summary>
+ <param name="Nodo">Nodo al cual se le quiere marcar todos sus padres</param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.DesmarcaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Desmarca todos los hijos
+ </summary>
+ <param name="_nodeCollection"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.CargaNuevo">
+ <summary>
+ Carga el formulario para crear un nuevo perfil
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.CargaModifica">
+ <summary>
+ Carga el formulario para modificar un perfil ya existente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.CargaElimina">
+ <summary>
+ Carga el fomulario para eliminar un perfil y existente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.RevisaError">
+ <summary>
+ Revisa que no existan errores
+ </summary>
+ <returns></returns>
+ <remarks>Campo obligatorio: Nombre del perfil</remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.btnCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cierra el formulario sin guardar los cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.btnAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba los cambios y cierra el formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.GrabaOPPPadre">
+ <summary>
+ Graba los nodos padres
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.GrabaHijos(System.Windows.Forms.TreeNodeCollection)">
+ <summary>
+ Graba los nodos hijos
+ </summary>
+ <param name="ColeccionNodos"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGPER01.BorraOPP">
+ <summary>
+ Borra todas las opciones para dejar el campo limpio para las nuevas
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.frmSEGUSU03.frmSEGUSU03_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga de la Pantalla inicial, la pantalla parte con chkBloqueados sin marca y texto de tbBuscaUsu Vacio
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.btnBusca_Click(System.Object,System.EventArgs)">
+ <summary>
+ Al presionar el botón buscar se selecciona el tipo de llenado dependiendo de las marcas de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega un nuevo usuario.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un registro ya creado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba cambios o agrega registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la edición y deshabilita lado derecho
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Genera informe con los datos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbContraseña_Click(System.Object,System.EventArgs)">
+ <summary>
+ Abre la pantalla de cambio de contraseña
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.RevisaUsername">
+ <summary>
+ Valida que el username ya no exista
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmSEGUSU03.LimpiaCampos">
+ <summary>
+ Limpia los campos en el caso de que se trate de una segunda pasada.
+ </summary>
+</member>
+<member name="M:Wallet.frmSEGUSU03.chkBloqueados_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Cambio de Estado del CheckBox chkBloqueados
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.BuscaUsuarios">
+ <summary>
+ Actualiza la grilla con los nuevos criterios de búsqueda
+ </summary>
+</member>
+<member name="M:Wallet.frmSEGUSU03.dgvUsuarios_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Al cambiar la selección de la grilla, cambian los datos seleccionados en el lado derecho de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.ArmaCompleto">
+ <summary>
+ genera nombre completo
+ </summary>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_NOMBRESTextBox_LostFocus(System.Object,System.EventArgs)">
+ <summary>
+ Actualiza nombre completo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_PATERNOTextBox_LostFocus(System.Object,System.EventArgs)">
+ <summary>
+ Actualiza nombre completo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_MATERNOTextBox_LostFocus(System.Object,System.EventArgs)">
+ <summary>
+ Actualiza nombre completo
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_EMAIL1TextBox_Leave(System.Object,System.EventArgs)">
+ <summary>
+ Valida dirección de correo de formato válido
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_EMAIL2TextBox_Leave(System.Object,System.EventArgs)">
+ <summary>
+ Valida dirección de correo de formato válido
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_RUTTextBox_LostFocus(System.Object,System.EventArgs)">
+ <summary>
+ Valida Rut 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.RevisaError">
+ <summary>
+ Valida presencia de campos obligatorios y fechas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_BLOQUEADOCheckBox_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Habilita o deshabilita los selectores de fecha dependiendo de los checked en el bloqueo de usuario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmSEGUSU03.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmSEGUSU03.SEGUSU_USERNAMETextBox_Leave(System.Object,System.EventArgs)">
+ <summary>
+ Valida que el username no haya sido usado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmSEGUSU03.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALBEN00.frmWALBEN00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Nombre Programa : frmWALBEN00
+ Descripción     : Mantención de Beneficiarios
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudio González Vache
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="F:Wallet.frmWALCTE00.CodigoCTE">
+ <summary>
+ Nombre Programa : frmWALCTE00
+ Descripción     : Mantención Cuentas Corrientes Bancarias
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="F:Wallet.frmWALCUS00.Accion">
+ <summary>
+ Nombre Programa : frmWALCUS00
+ Descripción     : Mantención de Custodias
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCUS00.frmWALCUS00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Cargo la pantalla inicial, con todas las custodias
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nueva custodia
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Edita una custodia ya creada
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la custodia creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para adición
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCUS00.RevisaError">
+ <summary>
+ Valida que los campos obligatorios se encuentren presente
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALCUS00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCUS00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALCUS00.dgvCustodias_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Determina el código de custodia seleccionado en la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALCUS00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:Wallet.frmWALEMP00.Accion">
+ <summary>
+ Nombre Programa : frmWALEMP00
+ Descripción     : Mantención Empresas
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEMP00.frmWALEMP00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la pantalla inicial con todas las empresas
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega nueva empresa
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de una empresa ya creada.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la empresa creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.dgvEmpresas_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Determina el código de empresa que está seleccionado en el datagrid
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEMP00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEMP00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEMP00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para una adición, en el caso del código, este no se asigna hasta después de presionado el botón Aceptar.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEMP00.RevisaError">
+ <summary>
+ Valida que el campo empresa contenga texto
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Wallet.frmWALENT00">
+ <summary>
+ Nombre Programa : frmWALENT00
+ Descripción     : Mantención Entidades Finanacieras
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALENT00.frmWALENT00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga de la Pantalla inicial
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega una nueva entidad.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cambia valores de un registro ya creado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Genera informe con los datos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cierra la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba el nuevo registro o confirma la edición de un registro ya existente
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.ENT_LIMITETextBox_Leave(System.Object,System.EventArgs)">
+ <summary>
+ Valida que el campo sea numérico
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALENT00.LimpiaCampos">
+ <summary>
+ Limpia los campos en el caso de que se trate de una segunda pasada.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALENT00.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALENT00.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALENT00.RevisaError">
+ <summary>
+ Valida campos obligatorios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALENT00.ENT_RUTTextBox_LostFocus(System.Object,System.EventArgs)">
+ <summary>
+ Valida que el RUT ingresado sea válido
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:Wallet.frmWALEST00.Accion">
+ <summary>
+ Nombre Programa : frmWALEST00
+ Descripción     : Mantención Estados
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega un nuevo estado de Instrumentos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbEditar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Edita un estado ya creado
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelvo a cargar la grilla para reflejar cambios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cargo informe resumen con los datos de la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sale de la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Acepta los datos de la custodia creada, o las modificaciones en el caso de edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.tsbCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la adición o edición del registro
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.dgvEstados_RowEnter(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Determina el código de custodia seleccionado en la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALEST00.HabilitaDerecho">
+ <summary>
+ Habilita el grupo de detalle y deshabilita el grupo general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEST00.HabilitaIzquierdo">
+ <summary>
+ Habilita el grupo general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEST00.LimpiaCampos">
+ <summary>
+ Limpia los campos preparando para adición
+ </summary>
+</member>
+<member name="M:Wallet.frmWALEST00.RevisaError">
+ <summary>
+ Valida que los campos obligatorios se encuentren presente
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:Wallet.frmWALFON00.Accion">
+ <summary>
+ Nombre Programa : frmWALFON00
+ Descripción     : Mantención de Fondos de Fondos Mutuos
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudia González Cerda
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFON00.frmWALFON00_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga de la Pantalla inicial
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.tsbAgregar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Agrega un nuevo fondo.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.tsbRefrescar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vuelve a cargar la grilla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.tsbImprimir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Genera informe con los datos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.tsbSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cierra la pantalla
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.tsbAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Graba el nuevo registro o confirma la edición de un registro ya existente
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.HabilitaDerecho">
+ <summary>
+ Habilita el lado detalle y deshabilita el general
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFON00.HabilitaIzquierdo">
+ <summary>
+ Habilita el lado general y deshabilita el detalle
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFON00.RevisaError">
+ <summary>
+ Valida campos obligatorios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Wallet.frmWALFON00.LimpiaCampos">
+ <summary>
+ Limpia los campos en el caso de que se trate de una segunda pasada.
+ </summary>
+</member>
+<member name="M:Wallet.frmWALFON00.FON_FONDOTextBox_Enter(System.Object,System.EventArgs)">
+ <summary>
+ Saca los blancos de la derecha para facilitar edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.frmWALFON00.FON_RUNTextBox_Enter(System.Object,System.EventArgs)">
+ <summary>
+ Saca los blancos de la derecha para facilitar edición
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:Wallet.LOGIN.taPAR">
+ <summary>
+ Nombre Programa : LOGIN
+ Descripción     : Conexión al Sistema
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudio González Vache
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.LOGIN.BtnAcepta_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pantalla de conexión al sistema
+ </summary>
+ <remarks> Determina la validez de la contraseña a través de un procedimiento de almacenado.</remarks>
+</member>
+<member name="M:Wallet.LOGIN.BtnCancela_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancela la conexión al sistema
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.LOGIN.LOGIN_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga el formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>Despliega el nombre del módulo y la versión que se está ejecutando.</remarks>
+</member>
+<member name="F:Wallet.MDIPrincipal.taVAM">
+ <summary>
+ Nombre Programa : MDIPrincipal
+ Descripción     : Pantalla Principal
+ Fecha Entrega   : 10 de Agosto 2016
+ Programador     : Claudio González Vache
+ copyright (c) 2016, 2SYS s.a., todos los derechos se encuentran reservados
+ www.2sys.com
+ </summary>
+</member>
+<member name="M:Wallet.MDIPrincipal.NivelInferior(System.Windows.Forms.ToolStripMenuItem,System.String)">
+ <summary>
+ Deja visible los items y subitems que se encuentran en el OPP
+ </summary>
+ <param name="It"></param>
+ <param name="nombre"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.MDIPrincipal.ApagaNivelInferior(System.Windows.Forms.ToolStripMenuItem,System.String)">
+ <summary>
+ Deja no visible todos los items y subitems que se encuentran definidos en el OPC
+ </summary>
+ <param name="It"></param>
+ <param name="nombre"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.MDIPrincipal.UsuariosToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Carga el mantenedor de usuarios
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Wallet.MDIPrincipal.ChequeaBase">
+ <summary>
+ Revisa que la base de datos se encuentre el línea, formatea con color
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Wallet.MDIPrincipal.TraeEstadoBaseDatos">
+ <summary>
+ Revisa el estado de la base de datos
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

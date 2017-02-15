@@ -1,0 +1,26 @@
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\bin\Release\WalletCrip.exe.config
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\bin\Release\WalletCrip.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\bin\Release\WalletCrip.pdb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\bin\Release\WalletCrip.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.frmWALCRIP00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.Resources.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.vbproj.GenerateResource.Cache
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.pdb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletCrip\obj\Release\WalletCrip.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\bin\Release\WalletCrip.exe.config
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\bin\Release\WalletCrip.exe
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\bin\Release\WalletCrip.pdb
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\bin\Release\WalletCrip.xml
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.frmWALCRIP00.resources
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.Resources.resources
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.exe
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.xml
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\bin\Release\WalletCrip.exe.config
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\copia wallet\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletCrip\obj\Release\WalletCrip.pdb

@@ -1,0 +1,102 @@
+
+**** ERROR file opened at 20160714 145338 Hora est. Sudamérica Pacífico, SAP-REL 730,0,317 RFC-VER 3 1362881 MT-SL
+T:1884 Error in program 'Wallet': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=indico.copec.cl, GWSERV=sapgw02, SYSNR=02
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'indico.copec.cl' unknown
+TIME        Thu Jul 14 14:53:38 2016
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'indico.copec.cl' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+T:1884 Error in program 'Wallet': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=CGONZALEZ CLIENT=400 LANG=ES PASSWD=******* SAPLOGON_ID=1.-COPEC Testing ICCE=1 CODEPAGE=1160 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20160714 145504 Hora est. Sudamérica Pacífico, SAP-REL 730,0,317 RFC-VER 3 1362881 MT-SL
+T:1884 Error in program 'Wallet': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=indico.copec.cl, GWSERV=sapgw02, SYSNR=02
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'indico.copec.cl' unknown
+TIME        Thu Jul 14 14:55:04 2016
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     4
+
+T:1884 Error in program 'Wallet': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=CGONZALEZ CLIENT=400 LANG=ES PASSWD=******* SAPLOGON_ID=1.-COPEC Testing ICCE=1 CODEPAGE=1160 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20160721 194152 Hora est. Sudamérica Pacífico, SAP-REL 730,0,317 RFC-VER 3 1362881 MT-SL
+T:16364 Error in program 'Wallet': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=baltico.copec.cl, GWSERV=sapgw03, SYSNR=03
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'baltico.copec.cl' unknown
+TIME        Thu Jul 21 19:41:52 2016
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'baltico.copec.cl' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+T:16364 Error in program 'Wallet': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=CCSILVA.EX CLIENT=400 LANG=ES PASSWD=******* SAPLOGON_ID=2.- COPEC Productivo ICCE=1 CODEPAGE=1160 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20160721 194254 Hora est. Sudamérica Pacífico, SAP-REL 730,0,317 RFC-VER 3 1362881 MT-SL
+T:16364 Error in program 'Wallet': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=baltico.copec.cl, GWSERV=sapgw03, SYSNR=03
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'baltico.copec.cl' unknown
+TIME        Thu Jul 21 19:42:54 2016
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     4
+
+T:16364 Error in program 'Wallet': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=CCSILVA.EX CLIENT=400 LANG=ES PASSWD=******* SAPLOGON_ID=2.- COPEC Productivo ICCE=1 CODEPAGE=1160 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+

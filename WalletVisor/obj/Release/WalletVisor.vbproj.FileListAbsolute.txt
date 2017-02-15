@@ -1,0 +1,39 @@
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\bin\Release\WalletCrip.config
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\bin\Release\WalletVisor.exe.config
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\bin\Release\WalletVisor.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\bin\Release\WalletVisor.pdb
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\bin\Release\WalletVisor.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.vbprojResolveAssemblyReference.cache
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.frmWALOJO00.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.frmWalVisor.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.Resources.resources
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.vbproj.GenerateResource.Cache
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.exe
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.xml
+C:\Users\Claudio\Documents\2SYS\Proyectos\Proyecto Wallet\Sistema\Wallet\WalletVisor\obj\Release\WalletVisor.pdb
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletCrip.config
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.exe.config
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.exe
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.pdb
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.xml
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.frmWALOJO00.resources
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.frmWalVisor.resources
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.Resources.resources
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.exe
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.xml
+C:\Users\Bprog\Desktop\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletCrip.config
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.exe.config
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.pdb
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\bin\Release\WalletVisor.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.vbprojResolveAssemblyReference.cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.frmWALOJO00.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.frmWalVisor.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.Resources.resources
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.vbproj.GenerateResource.Cache
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.exe
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.xml
+C:\Users\Bprog\Desktop\COPEC-Walleta\BPROG-COPEC\Planilla Operaciones Bprog-20161125T180741Z\Planilla Operaciones Bprog\Fuentes_2016-11-24\FuentesWallet1303\Wallet\WalletVisor\obj\Release\WalletVisor.pdb
